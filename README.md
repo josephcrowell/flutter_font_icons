@@ -1,8 +1,8 @@
 English | [简体中文](./README_zh-CN.md)
 
-# flutter_icons
+# flutter_vector_icons
 
-[![pub package](https://img.shields.io/pub/v/flutter_icons.svg)](https://pub.dartlang.org/packages/flutter_icons)
+[![pub package](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -31,7 +31,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, **596** icons)
 
 ## Usage
-To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Widget
 
@@ -54,8 +54,8 @@ To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml fi
 
 ``` dart
 // Import package
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_vector_icons.dart';
 
 // 1.0.0 version used
 Icon(AntDesign.stepforward),
@@ -66,7 +66,7 @@ Icon(FontAwesome5.address_book),
 Icon(FontAwesome5Solid.address_book),
 Icon(FontAwesome5Brands.$500px)
 
-// After 1.1.0, the FlutterIcons class is provided to access all Icons
+// After 1.1.0, the FlutterVectorIcons class is provided to access all Icons
 // Icon name in the original basis added icon set abbreviation name as suffix
 // Hereinafter referred to as the following
 //Ant Design Icons -> ant,
