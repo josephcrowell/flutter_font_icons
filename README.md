@@ -55,7 +55,7 @@ To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.
 ``` dart
 // Import package
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_vector_icons.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 // 1.0.0 version used
 Icon(AntDesign.stepforward),
