@@ -1,8 +1,8 @@
 [English](./README.md) | 简体中文
 
-# flutter_icons
+# flutter_vector_icons
 
-[![pub package](https://img.shields.io/pub/v/flutter_icons.svg)](https://pub.dartlang.org/packages/flutter_icons)
+[![pub package](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
 
 在Flutter中使用可定制的图标，该插件包是受到 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)启发而开发
 
@@ -30,13 +30,13 @@
 * [`SimpleLineIcons`](https://simplelineicons.github.io/) by Sabbir & Contributors (v2.4.1, **189** icons)
 
 ## 使用
-要使用此插件包,请将flutter_icons作为依赖项添加到您的`pubspec.yaml`文件中,详见[dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+要使用此插件包,请将flutter_vector_icons作为依赖项添加到您的`pubspec.yaml`文件中,详见[dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## 示例
 
 ``` dart
 // 引入包
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:flutter/material.dart';
 
 Icon(AntDesign.stepforward),
@@ -47,7 +47,7 @@ Icon(FontAwesome5.address_book),
 Icon(FontAwesome5Solid.address_book),
 Icon(FontAwesome5Brands.$500px)
 
-// 1.1.0之后提供了FlutterIcons类访问所有的图标
+// 1.1.0之后提供了FlutterVectorIcons类访问所有的图标
 // 图标名称在原有的基础上添加了图标集简称名称作为后缀
 // 简称如下
 //Ant Design Icons -> ant,
