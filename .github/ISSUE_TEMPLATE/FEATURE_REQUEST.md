@@ -1,16 +1,16 @@
 ---
 name: Feature request
-about: Suggest a new idea for flutter-icons.
+about: Suggest a new idea for flutter-vector-icons.
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-<!-- Thank you for using flutter-icons!
+<!-- Thank you for using flutter-vector-icons!
 
-    If you have some new ideas on flutter-icons, 
-    please submit an issue according to the following steps. We will reply to you immediately 
+    If you have some new ideas on flutter-vector-icons,
+    please submit an issue according to the following steps. We will reply to you immediately
 -->
 
 
