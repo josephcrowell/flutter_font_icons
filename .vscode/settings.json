@@ -1,0 +1,32 @@
+{
+    "dart.lineLength": 120,
+    "cSpell.words": ["latlng", "reorderables"],
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.previewHotReloadOnSaveWatcher": true,
+    "dart.devToolsBrowser": "default",
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "underline": "#C94A00"
+            },
+            "right": {
+                "surround": "#FD7BDD"
+            },
+            "name": {
+                "highlight": "rgba(180, 20, 80, 0.3)"
+            }
+        },
+        "closing": {
+            "left": {
+                "underline": "#C94A00"
+            },
+            "right": {
+                "surround": "#FD7BDD"
+            },
+            "name": {
+                "highlight": "rgba(180, 20, 80, 0.3)"
+            }
+        }
+    }
+}
