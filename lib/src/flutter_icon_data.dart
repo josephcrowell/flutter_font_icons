@@ -11,9 +11,9 @@ class FlutterIconData extends IconData {
 
   const FlutterIconData.fontAwesome(int codePoint) : this(codePoint, "FontAwesome");
 
-  const FlutterIconData.fontAwesome5Brands(int codePoint) : this(codePoint, "FontAwesome5_Brands");
-
   const FlutterIconData.fontAwesome5(int codePoint) : this(codePoint, "FontAwesome5");
+
+  const FlutterIconData.fontAwesome5Brands(int codePoint) : this(codePoint, "FontAwesome5_Brands");
 
   const FlutterIconData.fontAwesome5Solid(int codePoint) : this(codePoint, "FontAwesome5_Solid");
 
