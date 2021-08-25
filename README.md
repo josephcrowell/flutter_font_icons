@@ -1,12 +1,13 @@
-English | [简体中文](./README_zh-CN.md)
-
 # flutter_vector_icons
+
+English | [简体中文](./README_zh-CN.md)
 
 [![pub package](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
 ## Notice
+>>
 >> 1. `v1.0.0` has major Api changes, please be careful to upgrade
 >> 2. icon names that begin with a number are preceded by a `$`prefix
 >> 3. icon named with the dart keyword have the `_` suffix added
@@ -32,6 +33,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons)
 
 ## Usage
+
 To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Widget
@@ -50,7 +52,6 @@ To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.
 | reverseDuration | he duration of the transition from unselected Icon to selected Icon |
 | transitionBuilder | Transition animation function between the selected Icon and the unselected Icon |
 
-
 ## Example
 
 ``` dart
@@ -67,7 +68,7 @@ Icon(FontAwesome5.address_book),
 Icon(FontAwesome5Solid.address_book),
 Icon(FontAwesome5Brands.$500px)
 
-// After 1.1.0, the FlutterVectorIcons class is provided to access all Icons
+// After 1.1.0, the FlutterVectorIcons class provides access to all Icons
 // Icon name in the original basis added icon set abbreviation name as suffix
 // Hereinafter referred to as the following
 //Ant Design Icons -> ant,
@@ -100,15 +101,20 @@ Icon(FontAwesome5.getIconData("address-book",weight: IconWeight.Solid));
 Icon(FontAwesome5.getIconData("500px", weight: IconWeight.Brand));
 ```
 
-### How to keep only the fonts used in the project.
+### How to keep only the fonts used in the project
 
 #### step 1
+
 Execute the command
-```
+
+```bash
 pub global activate split_icon
 ```
+
 #### step2
+
 Add the font you want to leave in the project's pubspec file
+
 ```dart
 //Ant Design Icons -> ant,
 //Entypo Icons -> ent,
@@ -137,7 +143,9 @@ flutter_vector_icons:
  ```
 
 #### step3
+
 Execute the command in the project directory
-```
+
+```bash
 split_icon
 ```
