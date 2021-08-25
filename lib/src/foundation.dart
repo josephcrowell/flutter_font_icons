@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'flutter_icon_data.dart';
+import 'package:flutter_vector_icons/src/flutter_icon_data.dart';
 
 /// all Icons under Foundation
 ///

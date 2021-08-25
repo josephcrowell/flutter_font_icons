@@ -6,14 +6,13 @@ main(List<String> args) {
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
   String str = '''
 import 'package:flutter/material.dart';
-import 'flutter_icon_data.dart';
+import 'package:flutter_vector_icons/src/flutter_icon_data.dart';
 class FlutterIcons {
   FlutterIcons._();
   ''';
   for (var i = 0; i < files.length; i++) {
     final File file = files[i];
-    if (!file.path.contains("flutter_icon") &&
-        !file.path.contains("icon_toggle")) {
+    if (!file.path.contains("flutter_icon") && !file.path.contains("icon_toggle")) {
       final List<String> lines = file.readAsLinesSync();
       for (var k = 0; k < lines.length; k++) {
         final String line = lines[k];
