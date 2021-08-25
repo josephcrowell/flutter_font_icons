@@ -1,6 +1,6 @@
 {
     "dart.lineLength": 120,
-    "cSpell.words": ["latlng", "reorderables"],
+    "cSpell.words": ["Entypo", "Fonticons", "Fontisto", "Ionicons", "Octicons", "Zocial", "latlng", "reorderables"],
     "dart.previewFlutterUiGuides": true,
     "dart.previewFlutterUiGuidesCustomTracking": true,
     "dart.previewHotReloadOnSaveWatcher": true,
