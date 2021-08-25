@@ -250,7 +250,7 @@ class AntDesign {
   static const IconData reload1 = FlutterIconData.antDesign(58902);
   static const IconData message1 = FlutterIconData.antDesign(59051);
   static const IconData shake = FlutterIconData.antDesign(59727);
-  static const IconData API = FlutterIconData.antDesign(59729);
+  static const IconData api = FlutterIconData.antDesign(59729);
   static const IconData appstore_o = FlutterIconData.antDesign(59029);
   static const IconData appstore1 = FlutterIconData.antDesign(59030);
   static const IconData scan1 = FlutterIconData.antDesign(59031);
@@ -281,7 +281,7 @@ class AntDesign {
   static const IconData medium_monogram = FlutterIconData.antDesign(59836);
   static const IconData gitlab = FlutterIconData.antDesign(59837);
   static const IconData medium_wordmark = FlutterIconData.antDesign(59838);
-  static const IconData QQ = FlutterIconData.antDesign(59839);
+  static const IconData qq = FlutterIconData.antDesign(59839);
   static const IconData skype = FlutterIconData.antDesign(59840);
   static const IconData taobao_square = FlutterIconData.antDesign(59841);
   static const IconData alipay_circle = FlutterIconData.antDesign(59842);
@@ -293,7 +293,7 @@ class AntDesign {
   static const IconData taobao_circle = FlutterIconData.antDesign(59123);
   static const IconData weibo_circle = FlutterIconData.antDesign(59124);
   static const IconData weibo_square = FlutterIconData.antDesign(59125);
-  static const IconData CodeSandbox = FlutterIconData.antDesign(59860);
+  static const IconData codesandbox = FlutterIconData.antDesign(59860);
   static const IconData aliyun = FlutterIconData.antDesign(59892);
   static const IconData zhihu = FlutterIconData.antDesign(59139);
   static const IconData behance = FlutterIconData.antDesign(59143);
