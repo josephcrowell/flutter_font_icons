@@ -1,6 +1,6 @@
 name: flutter_vector_icons
 description: Customizable Icons for Flutter，you can use with over 3K+ icons in your flutter project
-version: 2.0.0
+version: 2.1.0
 homepage: https://github.com/josephcrowell/flutter-vector-icons
 
 environment:
@@ -11,10 +11,9 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
-
-  lints: ^1.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -46,6 +45,9 @@ flutter:
       - family: Foundation
         fonts:
           - asset: fonts/Foundation.ttf
+      - family: Fontisto
+        fonts:
+          - asset: fonts/Fontisto.ttf
       - family: MaterialCommunityIcons
         fonts:
           - asset: fonts/MaterialCommunityIcons.ttf
