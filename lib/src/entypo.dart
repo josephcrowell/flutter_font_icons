@@ -84,12 +84,9 @@ class Entypo {
   static const IconData chevron_thin_right = FlutterIconData.entypo(61770);
   static const IconData chevron_thin_up = FlutterIconData.entypo(61771);
   static const IconData chevron_up = FlutterIconData.entypo(61772);
-  static const IconData chevron_with_circle_down =
-      FlutterIconData.entypo(61773);
-  static const IconData chevron_with_circle_left =
-      FlutterIconData.entypo(61774);
-  static const IconData chevron_with_circle_right =
-      FlutterIconData.entypo(61775);
+  static const IconData chevron_with_circle_down = FlutterIconData.entypo(61773);
+  static const IconData chevron_with_circle_left = FlutterIconData.entypo(61774);
+  static const IconData chevron_with_circle_right = FlutterIconData.entypo(61775);
   static const IconData chevron_with_circle_up = FlutterIconData.entypo(61776);
   static const IconData circle = FlutterIconData.entypo(61777);
   static const IconData circle_with_cross = FlutterIconData.entypo(61778);
@@ -105,11 +102,9 @@ class Entypo {
   static const IconData cog = FlutterIconData.entypo(61788);
   static const IconData colours = FlutterIconData.entypo(61789);
   static const IconData compass = FlutterIconData.entypo(61790);
-  static const IconData controller_fast_backward =
-      FlutterIconData.entypo(61791);
+  static const IconData controller_fast_backward = FlutterIconData.entypo(61791);
   static const IconData controller_fast_forward = FlutterIconData.entypo(61792);
-  static const IconData controller_jump_to_start =
-      FlutterIconData.entypo(61793);
+  static const IconData controller_jump_to_start = FlutterIconData.entypo(61793);
   static const IconData controller_next = FlutterIconData.entypo(61794);
   static const IconData controller_paus = FlutterIconData.entypo(61795);
   static const IconData controller_play = FlutterIconData.entypo(61796);
@@ -119,20 +114,14 @@ class Entypo {
   static const IconData copy = FlutterIconData.entypo(61800);
   static const IconData creative_cloud = FlutterIconData.entypo(61801);
   static const IconData creative_commons = FlutterIconData.entypo(61802);
-  static const IconData creative_commons_attribution =
-      FlutterIconData.entypo(61803);
-  static const IconData creative_commons_noderivs =
-      FlutterIconData.entypo(61804);
-  static const IconData creative_commons_noncommercial_eu =
-      FlutterIconData.entypo(61805);
-  static const IconData creative_commons_noncommercial_us =
-      FlutterIconData.entypo(61806);
-  static const IconData creative_commons_public_domain =
-      FlutterIconData.entypo(61807);
+  static const IconData creative_commons_attribution = FlutterIconData.entypo(61803);
+  static const IconData creative_commons_noderivs = FlutterIconData.entypo(61804);
+  static const IconData creative_commons_noncommercial_eu = FlutterIconData.entypo(61805);
+  static const IconData creative_commons_noncommercial_us = FlutterIconData.entypo(61806);
+  static const IconData creative_commons_public_domain = FlutterIconData.entypo(61807);
   static const IconData creative_commons_remix = FlutterIconData.entypo(61808);
   static const IconData creative_commons_share = FlutterIconData.entypo(61809);
-  static const IconData creative_commons_sharealike =
-      FlutterIconData.entypo(61810);
+  static const IconData creative_commons_sharealike = FlutterIconData.entypo(61810);
   static const IconData credit = FlutterIconData.entypo(61811);
   static const IconData credit_card = FlutterIconData.entypo(61812);
   static const IconData crop = FlutterIconData.entypo(61813);

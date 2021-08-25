@@ -3,7 +3,7 @@ import 'flutter_icon_data.dart';
 
 class FlutterIcons {
   FlutterIcons._();
-  
+
   static const IconData address_book_fou = FlutterIconData.foundation(61696);
   static const IconData alert_fou = FlutterIconData.foundation(61697);
   static const IconData align_center_fou = FlutterIconData.foundation(61698);
@@ -10407,4 +10407,5 @@ class FlutterIcons {
   static const IconData md_water_ion = FlutterIconData.ionicons(62375);
   static const IconData md_wifi_ion = FlutterIconData.ionicons(62376);
   static const IconData md_wine_ion = FlutterIconData.ionicons(62377);
-  static const IconData md_woman_ion = FlutterIconData.ionicons(62378);}
+  static const IconData md_woman_ion = FlutterIconData.ionicons(62378);
+}

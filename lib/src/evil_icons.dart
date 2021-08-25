@@ -54,8 +54,7 @@ class EvilIcons {
   static const IconData sc_google_plus = FlutterIconData.evilIcons(61740);
   static const IconData sc_instagram = FlutterIconData.evilIcons(61741);
   static const IconData sc_linkedin = FlutterIconData.evilIcons(61742);
-  static const IconData sc_odnoklassniki =
-      FlutterIconData.evilIcons(61743);
+  static const IconData sc_odnoklassniki = FlutterIconData.evilIcons(61743);
   static const IconData sc_pinterest = FlutterIconData.evilIcons(61744);
   static const IconData sc_skype = FlutterIconData.evilIcons(61745);
   static const IconData sc_soundcloud = FlutterIconData.evilIcons(61746);

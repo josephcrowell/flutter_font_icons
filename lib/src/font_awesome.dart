@@ -35,8 +35,7 @@ class FontAwesome {
   static const IconData clock_o = FlutterIconData.fontAwesome(61463);
   static const IconData road = FlutterIconData.fontAwesome(61464);
   static const IconData download = FlutterIconData.fontAwesome(61465);
-  static const IconData arrow_circle_o_down =
-      FlutterIconData.fontAwesome(61466);
+  static const IconData arrow_circle_o_down = FlutterIconData.fontAwesome(61466);
   static const IconData arrow_circle_o_up = FlutterIconData.fontAwesome(61467);
   static const IconData inbox = FlutterIconData.fontAwesome(61468);
   static const IconData play_circle_o = FlutterIconData.fontAwesome(61469);
@@ -124,8 +123,7 @@ class FontAwesome {
   static const IconData eye = FlutterIconData.fontAwesome(61550);
   static const IconData eye_slash = FlutterIconData.fontAwesome(61552);
   static const IconData warning = FlutterIconData.fontAwesome(61553);
-  static const IconData exclamation_triangle =
-      FlutterIconData.fontAwesome(61553);
+  static const IconData exclamation_triangle = FlutterIconData.fontAwesome(61553);
   static const IconData plane = FlutterIconData.fontAwesome(61554);
   static const IconData calendar = FlutterIconData.fontAwesome(61555);
   static const IconData random = FlutterIconData.fontAwesome(61556);
@@ -322,13 +320,10 @@ class FontAwesome {
   static const IconData fire_extinguisher = FlutterIconData.fontAwesome(61748);
   static const IconData rocket = FlutterIconData.fontAwesome(61749);
   static const IconData maxcdn = FlutterIconData.fontAwesome(61750);
-  static const IconData chevron_circle_left =
-      FlutterIconData.fontAwesome(61751);
-  static const IconData chevron_circle_right =
-      FlutterIconData.fontAwesome(61752);
+  static const IconData chevron_circle_left = FlutterIconData.fontAwesome(61751);
+  static const IconData chevron_circle_right = FlutterIconData.fontAwesome(61752);
   static const IconData chevron_circle_up = FlutterIconData.fontAwesome(61753);
-  static const IconData chevron_circle_down =
-      FlutterIconData.fontAwesome(61754);
+  static const IconData chevron_circle_down = FlutterIconData.fontAwesome(61754);
   static const IconData html5 = FlutterIconData.fontAwesome(61755);
   static const IconData css3 = FlutterIconData.fontAwesome(61756);
   static const IconData anchor = FlutterIconData.fontAwesome(61757);
@@ -345,18 +340,15 @@ class FontAwesome {
   static const IconData level_down = FlutterIconData.fontAwesome(61769);
   static const IconData check_square = FlutterIconData.fontAwesome(61770);
   static const IconData pencil_square = FlutterIconData.fontAwesome(61771);
-  static const IconData external_link_square =
-      FlutterIconData.fontAwesome(61772);
+  static const IconData external_link_square = FlutterIconData.fontAwesome(61772);
   static const IconData share_square = FlutterIconData.fontAwesome(61773);
   static const IconData compass = FlutterIconData.fontAwesome(61774);
   static const IconData toggle_down = FlutterIconData.fontAwesome(61776);
-  static const IconData caret_square_o_down =
-      FlutterIconData.fontAwesome(61776);
+  static const IconData caret_square_o_down = FlutterIconData.fontAwesome(61776);
   static const IconData toggle_up = FlutterIconData.fontAwesome(61777);
   static const IconData caret_square_o_up = FlutterIconData.fontAwesome(61777);
   static const IconData toggle_right = FlutterIconData.fontAwesome(61778);
-  static const IconData caret_square_o_right =
-      FlutterIconData.fontAwesome(61778);
+  static const IconData caret_square_o_right = FlutterIconData.fontAwesome(61778);
   static const IconData euro = FlutterIconData.fontAwesome(61779);
   static const IconData eur = FlutterIconData.fontAwesome(61779);
   static const IconData gbp = FlutterIconData.fontAwesome(61780);
@@ -424,13 +416,10 @@ class FontAwesome {
   static const IconData renren = FlutterIconData.fontAwesome(61835);
   static const IconData pagelines = FlutterIconData.fontAwesome(61836);
   static const IconData stack_exchange = FlutterIconData.fontAwesome(61837);
-  static const IconData arrow_circle_o_right =
-      FlutterIconData.fontAwesome(61838);
-  static const IconData arrow_circle_o_left =
-      FlutterIconData.fontAwesome(61840);
+  static const IconData arrow_circle_o_right = FlutterIconData.fontAwesome(61838);
+  static const IconData arrow_circle_o_left = FlutterIconData.fontAwesome(61840);
   static const IconData toggle_left = FlutterIconData.fontAwesome(61841);
-  static const IconData caret_square_o_left =
-      FlutterIconData.fontAwesome(61841);
+  static const IconData caret_square_o_left = FlutterIconData.fontAwesome(61841);
   static const IconData dot_circle_o = FlutterIconData.fontAwesome(61842);
   static const IconData wheelchair = FlutterIconData.fontAwesome(61843);
   static const IconData vimeo_square = FlutterIconData.fontAwesome(61844);
@@ -511,8 +500,7 @@ class FontAwesome {
   static const IconData empire = FlutterIconData.fontAwesome(61905);
   static const IconData git_square = FlutterIconData.fontAwesome(61906);
   static const IconData git = FlutterIconData.fontAwesome(61907);
-  static const IconData y_combinator_square =
-      FlutterIconData.fontAwesome(61908);
+  static const IconData y_combinator_square = FlutterIconData.fontAwesome(61908);
   static const IconData yc_square = FlutterIconData.fontAwesome(61908);
   static const IconData hacker_news = FlutterIconData.fontAwesome(61908);
   static const IconData tencent_weibo = FlutterIconData.fontAwesome(61909);
@@ -626,8 +614,7 @@ class FontAwesome {
   static const IconData battery = FlutterIconData.fontAwesome(62016);
   static const IconData battery_full = FlutterIconData.fontAwesome(62016);
   static const IconData battery_3 = FlutterIconData.fontAwesome(62017);
-  static const IconData battery_three_quarters =
-      FlutterIconData.fontAwesome(62017);
+  static const IconData battery_three_quarters = FlutterIconData.fontAwesome(62017);
   static const IconData battery_2 = FlutterIconData.fontAwesome(62018);
   static const IconData battery_half = FlutterIconData.fontAwesome(62018);
   static const IconData battery_1 = FlutterIconData.fontAwesome(62019);
@@ -668,8 +655,7 @@ class FontAwesome {
   static const IconData gg_circle = FlutterIconData.fontAwesome(62049);
   static const IconData tripadvisor = FlutterIconData.fontAwesome(62050);
   static const IconData odnoklassniki = FlutterIconData.fontAwesome(62051);
-  static const IconData odnoklassniki_square =
-      FlutterIconData.fontAwesome(62052);
+  static const IconData odnoklassniki_square = FlutterIconData.fontAwesome(62052);
   static const IconData get_pocket = FlutterIconData.fontAwesome(62053);
   static const IconData wikipedia_w = FlutterIconData.fontAwesome(62054);
   static const IconData safari = FlutterIconData.fontAwesome(62055);
@@ -726,14 +712,11 @@ class FontAwesome {
   static const IconData question_circle_o = FlutterIconData.fontAwesome(62108);
   static const IconData blind = FlutterIconData.fontAwesome(62109);
   static const IconData audio_description = FlutterIconData.fontAwesome(62110);
-  static const IconData volume_control_phone =
-      FlutterIconData.fontAwesome(62112);
+  static const IconData volume_control_phone = FlutterIconData.fontAwesome(62112);
   static const IconData braille = FlutterIconData.fontAwesome(62113);
-  static const IconData assistive_listening_systems =
-      FlutterIconData.fontAwesome(62114);
+  static const IconData assistive_listening_systems = FlutterIconData.fontAwesome(62114);
   static const IconData asl_interpreting = FlutterIconData.fontAwesome(62115);
-  static const IconData american_sign_language_interpreting =
-      FlutterIconData.fontAwesome(62115);
+  static const IconData american_sign_language_interpreting = FlutterIconData.fontAwesome(62115);
   static const IconData deafness = FlutterIconData.fontAwesome(62116);
   static const IconData hard_of_hearing = FlutterIconData.fontAwesome(62116);
   static const IconData deaf = FlutterIconData.fontAwesome(62116);
@@ -752,8 +735,7 @@ class FontAwesome {
   static const IconData yoast = FlutterIconData.fontAwesome(62129);
   static const IconData themeisle = FlutterIconData.fontAwesome(62130);
   static const IconData google_plus_circle = FlutterIconData.fontAwesome(62131);
-  static const IconData google_plus_official =
-      FlutterIconData.fontAwesome(62131);
+  static const IconData google_plus_official = FlutterIconData.fontAwesome(62131);
   static const IconData fa = FlutterIconData.fontAwesome(62132);
   static const IconData font_awesome = FlutterIconData.fontAwesome(62132);
   static const IconData handshake_o = FlutterIconData.fontAwesome(62133);
@@ -781,13 +763,11 @@ class FontAwesome {
   static const IconData thermometer = FlutterIconData.fontAwesome(62151);
   static const IconData thermometer_full = FlutterIconData.fontAwesome(62151);
   static const IconData thermometer_3 = FlutterIconData.fontAwesome(62152);
-  static const IconData thermometer_three_quarters =
-      FlutterIconData.fontAwesome(62152);
+  static const IconData thermometer_three_quarters = FlutterIconData.fontAwesome(62152);
   static const IconData thermometer_2 = FlutterIconData.fontAwesome(62153);
   static const IconData thermometer_half = FlutterIconData.fontAwesome(62153);
   static const IconData thermometer_1 = FlutterIconData.fontAwesome(62154);
-  static const IconData thermometer_quarter =
-      FlutterIconData.fontAwesome(62154);
+  static const IconData thermometer_quarter = FlutterIconData.fontAwesome(62154);
   static const IconData thermometer_0 = FlutterIconData.fontAwesome(62155);
   static const IconData thermometer_empty = FlutterIconData.fontAwesome(62155);
   static const IconData shower = FlutterIconData.fontAwesome(62156);

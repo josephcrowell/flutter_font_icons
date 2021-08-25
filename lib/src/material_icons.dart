@@ -15,8 +15,7 @@ class MaterialIcons {
   static const IconData accessibility = FlutterIconData.materialIcons(59470);
   static const IconData accessible = FlutterIconData.materialIcons(59668);
   static const IconData account_balance = FlutterIconData.materialIcons(59471);
-  static const IconData account_balance_wallet =
-      FlutterIconData.materialIcons(59472);
+  static const IconData account_balance_wallet = FlutterIconData.materialIcons(59472);
   static const IconData account_box = FlutterIconData.materialIcons(59473);
   static const IconData account_circle = FlutterIconData.materialIcons(59475);
   static const IconData adb = FlutterIconData.materialIcons(58894);
@@ -26,34 +25,22 @@ class MaterialIcons {
   static const IconData add_alert = FlutterIconData.materialIcons(57347);
   static const IconData add_box = FlutterIconData.materialIcons(57670);
   static const IconData add_circle = FlutterIconData.materialIcons(57671);
-  static const IconData add_circle_outline =
-      FlutterIconData.materialIcons(57672);
+  static const IconData add_circle_outline = FlutterIconData.materialIcons(57672);
   static const IconData add_location = FlutterIconData.materialIcons(58727);
-  static const IconData add_shopping_cart =
-      FlutterIconData.materialIcons(59476);
+  static const IconData add_shopping_cart = FlutterIconData.materialIcons(59476);
   static const IconData add_to_photos = FlutterIconData.materialIcons(58269);
   static const IconData add_to_queue = FlutterIconData.materialIcons(57436);
   static const IconData adjust = FlutterIconData.materialIcons(58270);
-  static const IconData airline_seat_flat =
-      FlutterIconData.materialIcons(58928);
-  static const IconData airline_seat_flat_angled =
-      FlutterIconData.materialIcons(58929);
-  static const IconData airline_seat_individual_suite =
-      FlutterIconData.materialIcons(58930);
-  static const IconData airline_seat_legroom_extra =
-      FlutterIconData.materialIcons(58931);
-  static const IconData airline_seat_legroom_normal =
-      FlutterIconData.materialIcons(58932);
-  static const IconData airline_seat_legroom_reduced =
-      FlutterIconData.materialIcons(58933);
-  static const IconData airline_seat_recline_extra =
-      FlutterIconData.materialIcons(58934);
-  static const IconData airline_seat_recline_normal =
-      FlutterIconData.materialIcons(58935);
-  static const IconData airplanemode_active =
-      FlutterIconData.materialIcons(57749);
-  static const IconData airplanemode_inactive =
-      FlutterIconData.materialIcons(57748);
+  static const IconData airline_seat_flat = FlutterIconData.materialIcons(58928);
+  static const IconData airline_seat_flat_angled = FlutterIconData.materialIcons(58929);
+  static const IconData airline_seat_individual_suite = FlutterIconData.materialIcons(58930);
+  static const IconData airline_seat_legroom_extra = FlutterIconData.materialIcons(58931);
+  static const IconData airline_seat_legroom_normal = FlutterIconData.materialIcons(58932);
+  static const IconData airline_seat_legroom_reduced = FlutterIconData.materialIcons(58933);
+  static const IconData airline_seat_recline_extra = FlutterIconData.materialIcons(58934);
+  static const IconData airline_seat_recline_normal = FlutterIconData.materialIcons(58935);
+  static const IconData airplanemode_active = FlutterIconData.materialIcons(57749);
+  static const IconData airplanemode_inactive = FlutterIconData.materialIcons(57748);
   static const IconData airplay = FlutterIconData.materialIcons(57429);
   static const IconData airport_shuttle = FlutterIconData.materialIcons(60220);
   static const IconData alarm = FlutterIconData.materialIcons(59477);
@@ -70,8 +57,7 @@ class MaterialIcons {
   static const IconData arrow_back = FlutterIconData.materialIcons(58820);
   static const IconData arrow_downward = FlutterIconData.materialIcons(58843);
   static const IconData arrow_drop_down = FlutterIconData.materialIcons(58821);
-  static const IconData arrow_drop_down_circle =
-      FlutterIconData.materialIcons(58822);
+  static const IconData arrow_drop_down_circle = FlutterIconData.materialIcons(58822);
   static const IconData arrow_drop_up = FlutterIconData.materialIcons(58823);
   static const IconData arrow_forward = FlutterIconData.materialIcons(58824);
   static const IconData arrow_upward = FlutterIconData.materialIcons(58840);
@@ -81,12 +67,9 @@ class MaterialIcons {
   static const IconData assignment = FlutterIconData.materialIcons(59485);
   static const IconData assignment_ind = FlutterIconData.materialIcons(59486);
   static const IconData assignment_late = FlutterIconData.materialIcons(59487);
-  static const IconData assignment_return =
-      FlutterIconData.materialIcons(59488);
-  static const IconData assignment_returned =
-      FlutterIconData.materialIcons(59489);
-  static const IconData assignment_turned_in =
-      FlutterIconData.materialIcons(59490);
+  static const IconData assignment_return = FlutterIconData.materialIcons(59488);
+  static const IconData assignment_returned = FlutterIconData.materialIcons(59489);
+  static const IconData assignment_turned_in = FlutterIconData.materialIcons(59490);
   static const IconData assistant = FlutterIconData.materialIcons(58271);
   static const IconData assistant_photo = FlutterIconData.materialIcons(58272);
   static const IconData attach_file = FlutterIconData.materialIcons(57894);
@@ -98,8 +81,7 @@ class MaterialIcons {
   static const IconData backspace = FlutterIconData.materialIcons(57674);
   static const IconData backup = FlutterIconData.materialIcons(59492);
   static const IconData battery_alert = FlutterIconData.materialIcons(57756);
-  static const IconData battery_charging_full =
-      FlutterIconData.materialIcons(57763);
+  static const IconData battery_charging_full = FlutterIconData.materialIcons(57763);
   static const IconData battery_full = FlutterIconData.materialIcons(57764);
   static const IconData battery_std = FlutterIconData.materialIcons(57765);
   static const IconData battery_unknown = FlutterIconData.materialIcons(57766);
@@ -108,12 +90,9 @@ class MaterialIcons {
   static const IconData block = FlutterIconData.materialIcons(57675);
   static const IconData bluetooth = FlutterIconData.materialIcons(57767);
   static const IconData bluetooth_audio = FlutterIconData.materialIcons(58895);
-  static const IconData bluetooth_connected =
-      FlutterIconData.materialIcons(57768);
-  static const IconData bluetooth_disabled =
-      FlutterIconData.materialIcons(57769);
-  static const IconData bluetooth_searching =
-      FlutterIconData.materialIcons(57770);
+  static const IconData bluetooth_connected = FlutterIconData.materialIcons(57768);
+  static const IconData bluetooth_disabled = FlutterIconData.materialIcons(57769);
+  static const IconData bluetooth_searching = FlutterIconData.materialIcons(57770);
   static const IconData blur_circular = FlutterIconData.materialIcons(58274);
   static const IconData blur_linear = FlutterIconData.materialIcons(58275);
   static const IconData blur_off = FlutterIconData.materialIcons(58276);
@@ -125,8 +104,7 @@ class MaterialIcons {
   static const IconData border_bottom = FlutterIconData.materialIcons(57897);
   static const IconData border_clear = FlutterIconData.materialIcons(57898);
   static const IconData border_color = FlutterIconData.materialIcons(57899);
-  static const IconData border_horizontal =
-      FlutterIconData.materialIcons(57900);
+  static const IconData border_horizontal = FlutterIconData.materialIcons(57900);
   static const IconData border_inner = FlutterIconData.materialIcons(57901);
   static const IconData border_left = FlutterIconData.materialIcons(57902);
   static const IconData border_outer = FlutterIconData.materialIcons(57903);
@@ -134,8 +112,7 @@ class MaterialIcons {
   static const IconData border_style = FlutterIconData.materialIcons(57905);
   static const IconData border_top = FlutterIconData.materialIcons(57906);
   static const IconData border_vertical = FlutterIconData.materialIcons(57907);
-  static const IconData branding_watermark =
-      FlutterIconData.materialIcons(57451);
+  static const IconData branding_watermark = FlutterIconData.materialIcons(57451);
   static const IconData brightness_1 = FlutterIconData.materialIcons(58278);
   static const IconData brightness_2 = FlutterIconData.materialIcons(58279);
   static const IconData brightness_3 = FlutterIconData.materialIcons(58280);
@@ -146,8 +123,7 @@ class MaterialIcons {
   static const IconData brightness_auto = FlutterIconData.materialIcons(57771);
   static const IconData brightness_high = FlutterIconData.materialIcons(57772);
   static const IconData brightness_low = FlutterIconData.materialIcons(57773);
-  static const IconData brightness_medium =
-      FlutterIconData.materialIcons(57774);
+  static const IconData brightness_medium = FlutterIconData.materialIcons(57774);
   static const IconData broken_image = FlutterIconData.materialIcons(58285);
   static const IconData brush = FlutterIconData.materialIcons(58286);
   static const IconData bubble_chart = FlutterIconData.materialIcons(59101);
@@ -163,8 +139,7 @@ class MaterialIcons {
   static const IconData call_made = FlutterIconData.materialIcons(57522);
   static const IconData call_merge = FlutterIconData.materialIcons(57523);
   static const IconData call_missed = FlutterIconData.materialIcons(57524);
-  static const IconData call_missed_outgoing =
-      FlutterIconData.materialIcons(57572);
+  static const IconData call_missed_outgoing = FlutterIconData.materialIcons(57572);
   static const IconData call_received = FlutterIconData.materialIcons(57525);
   static const IconData call_split = FlutterIconData.materialIcons(57526);
   static const IconData call_to_action = FlutterIconData.materialIcons(57452);
@@ -181,26 +156,21 @@ class MaterialIcons {
   static const IconData casino = FlutterIconData.materialIcons(60224);
   static const IconData cast = FlutterIconData.materialIcons(58119);
   static const IconData cast_connected = FlutterIconData.materialIcons(58120);
-  static const IconData center_focus_strong =
-      FlutterIconData.materialIcons(58292);
-  static const IconData center_focus_weak =
-      FlutterIconData.materialIcons(58293);
+  static const IconData center_focus_strong = FlutterIconData.materialIcons(58292);
+  static const IconData center_focus_weak = FlutterIconData.materialIcons(58293);
   static const IconData change_history = FlutterIconData.materialIcons(59499);
   static const IconData chat = FlutterIconData.materialIcons(57527);
   static const IconData chat_bubble = FlutterIconData.materialIcons(57546);
-  static const IconData chat_bubble_outline =
-      FlutterIconData.materialIcons(57547);
+  static const IconData chat_bubble_outline = FlutterIconData.materialIcons(57547);
   static const IconData check = FlutterIconData.materialIcons(58826);
   static const IconData check_box = FlutterIconData.materialIcons(59444);
-  static const IconData check_box_outline_blank =
-      FlutterIconData.materialIcons(59445);
+  static const IconData check_box_outline_blank = FlutterIconData.materialIcons(59445);
   static const IconData check_circle = FlutterIconData.materialIcons(59500);
   static const IconData chevron_left = FlutterIconData.materialIcons(58827);
   static const IconData chevron_right = FlutterIconData.materialIcons(58828);
   static const IconData child_care = FlutterIconData.materialIcons(60225);
   static const IconData child_friendly = FlutterIconData.materialIcons(60226);
-  static const IconData chrome_reader_mode =
-      FlutterIconData.materialIcons(59501);
+  static const IconData chrome_reader_mode = FlutterIconData.materialIcons(59501);
   static const IconData class_ = FlutterIconData.materialIcons(59502);
   static const IconData clear = FlutterIconData.materialIcons(57676);
   static const IconData clear_all = FlutterIconData.materialIcons(57528);
@@ -215,16 +185,14 @@ class MaterialIcons {
   static const IconData cloud_upload = FlutterIconData.materialIcons(58051);
   static const IconData code = FlutterIconData.materialIcons(59503);
   static const IconData collections = FlutterIconData.materialIcons(58294);
-  static const IconData collections_bookmark =
-      FlutterIconData.materialIcons(58417);
+  static const IconData collections_bookmark = FlutterIconData.materialIcons(58417);
   static const IconData color_lens = FlutterIconData.materialIcons(58295);
   static const IconData colorize = FlutterIconData.materialIcons(58296);
   static const IconData comment = FlutterIconData.materialIcons(57529);
   static const IconData compare = FlutterIconData.materialIcons(58297);
   static const IconData compare_arrows = FlutterIconData.materialIcons(59669);
   static const IconData computer = FlutterIconData.materialIcons(58122);
-  static const IconData confirmation_number =
-      FlutterIconData.materialIcons(58936);
+  static const IconData confirmation_number = FlutterIconData.materialIcons(58936);
   static const IconData contact_mail = FlutterIconData.materialIcons(57552);
   static const IconData contact_phone = FlutterIconData.materialIcons(57551);
   static const IconData contacts = FlutterIconData.materialIcons(57530);
@@ -232,12 +200,10 @@ class MaterialIcons {
   static const IconData content_cut = FlutterIconData.materialIcons(57678);
   static const IconData content_paste = FlutterIconData.materialIcons(57679);
   static const IconData control_point = FlutterIconData.materialIcons(58298);
-  static const IconData control_point_duplicate =
-      FlutterIconData.materialIcons(58299);
+  static const IconData control_point_duplicate = FlutterIconData.materialIcons(58299);
   static const IconData copyright = FlutterIconData.materialIcons(59660);
   static const IconData create = FlutterIconData.materialIcons(57680);
-  static const IconData create_new_folder =
-      FlutterIconData.materialIcons(58060);
+  static const IconData create_new_folder = FlutterIconData.materialIcons(58060);
   static const IconData credit_card = FlutterIconData.materialIcons(59504);
   static const IconData crop = FlutterIconData.materialIcons(58302);
   static const IconData crop_16_9 = FlutterIconData.materialIcons(58300);
@@ -274,23 +240,17 @@ class MaterialIcons {
   static const IconData directions_boat = FlutterIconData.materialIcons(58674);
   static const IconData directions_bus = FlutterIconData.materialIcons(58672);
   static const IconData directions_car = FlutterIconData.materialIcons(58673);
-  static const IconData directions_railway =
-      FlutterIconData.materialIcons(58676);
+  static const IconData directions_railway = FlutterIconData.materialIcons(58676);
   static const IconData directions_run = FlutterIconData.materialIcons(58726);
-  static const IconData directions_subway =
-      FlutterIconData.materialIcons(58675);
-  static const IconData directions_transit =
-      FlutterIconData.materialIcons(58677);
+  static const IconData directions_subway = FlutterIconData.materialIcons(58675);
+  static const IconData directions_transit = FlutterIconData.materialIcons(58677);
   static const IconData directions_walk = FlutterIconData.materialIcons(58678);
   static const IconData disc_full = FlutterIconData.materialIcons(58896);
   static const IconData dns = FlutterIconData.materialIcons(59509);
   static const IconData do_not_disturb = FlutterIconData.materialIcons(58898);
-  static const IconData do_not_disturb_alt =
-      FlutterIconData.materialIcons(58897);
-  static const IconData do_not_disturb_off =
-      FlutterIconData.materialIcons(58947);
-  static const IconData do_not_disturb_on =
-      FlutterIconData.materialIcons(58948);
+  static const IconData do_not_disturb_alt = FlutterIconData.materialIcons(58897);
+  static const IconData do_not_disturb_off = FlutterIconData.materialIcons(58947);
+  static const IconData do_not_disturb_on = FlutterIconData.materialIcons(58948);
   static const IconData dock = FlutterIconData.materialIcons(58126);
   static const IconData domain = FlutterIconData.materialIcons(59374);
   static const IconData done = FlutterIconData.materialIcons(59510);
@@ -305,8 +265,7 @@ class MaterialIcons {
   static const IconData edit_location = FlutterIconData.materialIcons(58728);
   static const IconData eject = FlutterIconData.materialIcons(59643);
   static const IconData email = FlutterIconData.materialIcons(57534);
-  static const IconData enhanced_encryption =
-      FlutterIconData.materialIcons(58943);
+  static const IconData enhanced_encryption = FlutterIconData.materialIcons(58943);
   static const IconData equalizer = FlutterIconData.materialIcons(57373);
   static const IconData error = FlutterIconData.materialIcons(57344);
   static const IconData error_outline = FlutterIconData.materialIcons(57345);
@@ -334,17 +293,14 @@ class MaterialIcons {
   static const IconData fast_rewind = FlutterIconData.materialIcons(57376);
   static const IconData favorite = FlutterIconData.materialIcons(59517);
   static const IconData favorite_border = FlutterIconData.materialIcons(59518);
-  static const IconData featured_play_list =
-      FlutterIconData.materialIcons(57453);
+  static const IconData featured_play_list = FlutterIconData.materialIcons(57453);
   static const IconData featured_video = FlutterIconData.materialIcons(57454);
   static const IconData feedback = FlutterIconData.materialIcons(59519);
   static const IconData fiber_dvr = FlutterIconData.materialIcons(57437);
-  static const IconData fiber_manual_record =
-      FlutterIconData.materialIcons(57441);
+  static const IconData fiber_manual_record = FlutterIconData.materialIcons(57441);
   static const IconData fiber_new = FlutterIconData.materialIcons(57438);
   static const IconData fiber_pin = FlutterIconData.materialIcons(57450);
-  static const IconData fiber_smart_record =
-      FlutterIconData.materialIcons(57442);
+  static const IconData fiber_smart_record = FlutterIconData.materialIcons(57442);
   static const IconData file_download = FlutterIconData.materialIcons(58052);
   static const IconData file_upload = FlutterIconData.materialIcons(58054);
   static const IconData filter = FlutterIconData.materialIcons(58323);
@@ -359,15 +315,13 @@ class MaterialIcons {
   static const IconData filter_9 = FlutterIconData.materialIcons(58329);
   static const IconData filter_9_plus = FlutterIconData.materialIcons(58330);
   static const IconData filter_b_and_w = FlutterIconData.materialIcons(58331);
-  static const IconData filter_center_focus =
-      FlutterIconData.materialIcons(58332);
+  static const IconData filter_center_focus = FlutterIconData.materialIcons(58332);
   static const IconData filter_drama = FlutterIconData.materialIcons(58333);
   static const IconData filter_frames = FlutterIconData.materialIcons(58334);
   static const IconData filter_hdr = FlutterIconData.materialIcons(58335);
   static const IconData filter_list = FlutterIconData.materialIcons(57682);
   static const IconData filter_none = FlutterIconData.materialIcons(58336);
-  static const IconData filter_tilt_shift =
-      FlutterIconData.materialIcons(58338);
+  static const IconData filter_tilt_shift = FlutterIconData.materialIcons(58338);
   static const IconData filter_vintage = FlutterIconData.materialIcons(58339);
   static const IconData find_in_page = FlutterIconData.materialIcons(59520);
   static const IconData find_replace = FlutterIconData.materialIcons(59521);
@@ -390,45 +344,29 @@ class MaterialIcons {
   static const IconData folder_shared = FlutterIconData.materialIcons(58057);
   static const IconData folder_special = FlutterIconData.materialIcons(58903);
   static const IconData font_download = FlutterIconData.materialIcons(57703);
-  static const IconData format_align_center =
-      FlutterIconData.materialIcons(57908);
-  static const IconData format_align_justify =
-      FlutterIconData.materialIcons(57909);
-  static const IconData format_align_left =
-      FlutterIconData.materialIcons(57910);
-  static const IconData format_align_right =
-      FlutterIconData.materialIcons(57911);
+  static const IconData format_align_center = FlutterIconData.materialIcons(57908);
+  static const IconData format_align_justify = FlutterIconData.materialIcons(57909);
+  static const IconData format_align_left = FlutterIconData.materialIcons(57910);
+  static const IconData format_align_right = FlutterIconData.materialIcons(57911);
   static const IconData format_bold = FlutterIconData.materialIcons(57912);
   static const IconData format_clear = FlutterIconData.materialIcons(57913);
-  static const IconData format_color_fill =
-      FlutterIconData.materialIcons(57914);
-  static const IconData format_color_reset =
-      FlutterIconData.materialIcons(57915);
-  static const IconData format_color_text =
-      FlutterIconData.materialIcons(57916);
-  static const IconData format_indent_decrease =
-      FlutterIconData.materialIcons(57917);
-  static const IconData format_indent_increase =
-      FlutterIconData.materialIcons(57918);
+  static const IconData format_color_fill = FlutterIconData.materialIcons(57914);
+  static const IconData format_color_reset = FlutterIconData.materialIcons(57915);
+  static const IconData format_color_text = FlutterIconData.materialIcons(57916);
+  static const IconData format_indent_decrease = FlutterIconData.materialIcons(57917);
+  static const IconData format_indent_increase = FlutterIconData.materialIcons(57918);
   static const IconData format_italic = FlutterIconData.materialIcons(57919);
-  static const IconData format_line_spacing =
-      FlutterIconData.materialIcons(57920);
-  static const IconData format_list_bulleted =
-      FlutterIconData.materialIcons(57921);
-  static const IconData format_list_numbered =
-      FlutterIconData.materialIcons(57922);
+  static const IconData format_line_spacing = FlutterIconData.materialIcons(57920);
+  static const IconData format_list_bulleted = FlutterIconData.materialIcons(57921);
+  static const IconData format_list_numbered = FlutterIconData.materialIcons(57922);
   static const IconData format_paint = FlutterIconData.materialIcons(57923);
   static const IconData format_quote = FlutterIconData.materialIcons(57924);
   static const IconData format_shapes = FlutterIconData.materialIcons(57950);
   static const IconData format_size = FlutterIconData.materialIcons(57925);
-  static const IconData format_strikethrough =
-      FlutterIconData.materialIcons(57926);
-  static const IconData format_textdirection_l_to_r =
-      FlutterIconData.materialIcons(57927);
-  static const IconData format_textdirection_r_to_l =
-      FlutterIconData.materialIcons(57928);
-  static const IconData format_underlined =
-      FlutterIconData.materialIcons(57929);
+  static const IconData format_strikethrough = FlutterIconData.materialIcons(57926);
+  static const IconData format_textdirection_l_to_r = FlutterIconData.materialIcons(57927);
+  static const IconData format_textdirection_r_to_l = FlutterIconData.materialIcons(57928);
+  static const IconData format_underlined = FlutterIconData.materialIcons(57929);
   static const IconData forum = FlutterIconData.materialIcons(57535);
   static const IconData forward = FlutterIconData.materialIcons(57684);
   static const IconData forward_10 = FlutterIconData.materialIcons(57430);
@@ -481,44 +419,32 @@ class MaterialIcons {
   static const IconData http = FlutterIconData.materialIcons(59650);
   static const IconData https = FlutterIconData.materialIcons(59533);
   static const IconData image = FlutterIconData.materialIcons(58356);
-  static const IconData image_aspect_ratio =
-      FlutterIconData.materialIcons(58357);
+  static const IconData image_aspect_ratio = FlutterIconData.materialIcons(58357);
   static const IconData import_contacts = FlutterIconData.materialIcons(57568);
   static const IconData import_export = FlutterIconData.materialIcons(57539);
-  static const IconData important_devices =
-      FlutterIconData.materialIcons(59666);
+  static const IconData important_devices = FlutterIconData.materialIcons(59666);
   static const IconData inbox = FlutterIconData.materialIcons(57686);
-  static const IconData indeterminate_check_box =
-      FlutterIconData.materialIcons(59657);
+  static const IconData indeterminate_check_box = FlutterIconData.materialIcons(59657);
   static const IconData info = FlutterIconData.materialIcons(59534);
   static const IconData info_outline = FlutterIconData.materialIcons(59535);
   static const IconData input = FlutterIconData.materialIcons(59536);
   static const IconData insert_chart = FlutterIconData.materialIcons(57931);
   static const IconData insert_comment = FlutterIconData.materialIcons(57932);
-  static const IconData insert_drive_file =
-      FlutterIconData.materialIcons(57933);
+  static const IconData insert_drive_file = FlutterIconData.materialIcons(57933);
   static const IconData insert_emoticon = FlutterIconData.materialIcons(57934);
-  static const IconData insert_invitation =
-      FlutterIconData.materialIcons(57935);
+  static const IconData insert_invitation = FlutterIconData.materialIcons(57935);
   static const IconData insert_link = FlutterIconData.materialIcons(57936);
   static const IconData insert_photo = FlutterIconData.materialIcons(57937);
   static const IconData invert_colors = FlutterIconData.materialIcons(59537);
-  static const IconData invert_colors_off =
-      FlutterIconData.materialIcons(57540);
+  static const IconData invert_colors_off = FlutterIconData.materialIcons(57540);
   static const IconData iso = FlutterIconData.materialIcons(58358);
   static const IconData keyboard = FlutterIconData.materialIcons(58130);
-  static const IconData keyboard_arrow_down =
-      FlutterIconData.materialIcons(58131);
-  static const IconData keyboard_arrow_left =
-      FlutterIconData.materialIcons(58132);
-  static const IconData keyboard_arrow_right =
-      FlutterIconData.materialIcons(58133);
-  static const IconData keyboard_arrow_up =
-      FlutterIconData.materialIcons(58134);
-  static const IconData keyboard_backspace =
-      FlutterIconData.materialIcons(58135);
-  static const IconData keyboard_capslock =
-      FlutterIconData.materialIcons(58136);
+  static const IconData keyboard_arrow_down = FlutterIconData.materialIcons(58131);
+  static const IconData keyboard_arrow_left = FlutterIconData.materialIcons(58132);
+  static const IconData keyboard_arrow_right = FlutterIconData.materialIcons(58133);
+  static const IconData keyboard_arrow_up = FlutterIconData.materialIcons(58134);
+  static const IconData keyboard_backspace = FlutterIconData.materialIcons(58135);
+  static const IconData keyboard_capslock = FlutterIconData.materialIcons(58136);
   static const IconData keyboard_hide = FlutterIconData.materialIcons(58138);
   static const IconData keyboard_return = FlutterIconData.materialIcons(58139);
   static const IconData keyboard_tab = FlutterIconData.materialIcons(58140);
@@ -529,8 +455,7 @@ class MaterialIcons {
   static const IconData landscape = FlutterIconData.materialIcons(58359);
   static const IconData language = FlutterIconData.materialIcons(59540);
   static const IconData laptop = FlutterIconData.materialIcons(58142);
-  static const IconData laptop_chromebook =
-      FlutterIconData.materialIcons(58143);
+  static const IconData laptop_chromebook = FlutterIconData.materialIcons(58143);
   static const IconData laptop_mac = FlutterIconData.materialIcons(58144);
   static const IconData laptop_windows = FlutterIconData.materialIcons(58145);
   static const IconData last_page = FlutterIconData.materialIcons(58845);
@@ -543,8 +468,7 @@ class MaterialIcons {
   static const IconData library_add = FlutterIconData.materialIcons(57390);
   static const IconData library_books = FlutterIconData.materialIcons(57391);
   static const IconData library_music = FlutterIconData.materialIcons(57392);
-  static const IconData lightbulb_outline =
-      FlutterIconData.materialIcons(59663);
+  static const IconData lightbulb_outline = FlutterIconData.materialIcons(59663);
   static const IconData line_style = FlutterIconData.materialIcons(59673);
   static const IconData line_weight = FlutterIconData.materialIcons(59674);
   static const IconData linear_scale = FlutterIconData.materialIcons(57952);
@@ -559,19 +483,15 @@ class MaterialIcons {
   static const IconData local_bar = FlutterIconData.materialIcons(58688);
   static const IconData local_cafe = FlutterIconData.materialIcons(58689);
   static const IconData local_car_wash = FlutterIconData.materialIcons(58690);
-  static const IconData local_convenience_store =
-      FlutterIconData.materialIcons(58691);
+  static const IconData local_convenience_store = FlutterIconData.materialIcons(58691);
   static const IconData local_dining = FlutterIconData.materialIcons(58710);
   static const IconData local_drink = FlutterIconData.materialIcons(58692);
   static const IconData local_florist = FlutterIconData.materialIcons(58693);
-  static const IconData local_gas_station =
-      FlutterIconData.materialIcons(58694);
-  static const IconData local_grocery_store =
-      FlutterIconData.materialIcons(58695);
+  static const IconData local_gas_station = FlutterIconData.materialIcons(58694);
+  static const IconData local_grocery_store = FlutterIconData.materialIcons(58695);
   static const IconData local_hospital = FlutterIconData.materialIcons(58696);
   static const IconData local_hotel = FlutterIconData.materialIcons(58697);
-  static const IconData local_laundry_service =
-      FlutterIconData.materialIcons(58698);
+  static const IconData local_laundry_service = FlutterIconData.materialIcons(58698);
   static const IconData local_library = FlutterIconData.materialIcons(58699);
   static const IconData local_mall = FlutterIconData.materialIcons(58700);
   static const IconData local_movies = FlutterIconData.materialIcons(58701);
@@ -581,19 +501,16 @@ class MaterialIcons {
   static const IconData local_phone = FlutterIconData.materialIcons(58705);
   static const IconData local_pizza = FlutterIconData.materialIcons(58706);
   static const IconData local_play = FlutterIconData.materialIcons(58707);
-  static const IconData local_post_office =
-      FlutterIconData.materialIcons(58708);
+  static const IconData local_post_office = FlutterIconData.materialIcons(58708);
   static const IconData local_printshop = FlutterIconData.materialIcons(58709);
   static const IconData local_see = FlutterIconData.materialIcons(58711);
   static const IconData local_shipping = FlutterIconData.materialIcons(58712);
   static const IconData local_taxi = FlutterIconData.materialIcons(58713);
   static const IconData location_city = FlutterIconData.materialIcons(59377);
-  static const IconData location_disabled =
-      FlutterIconData.materialIcons(57782);
+  static const IconData location_disabled = FlutterIconData.materialIcons(57782);
   static const IconData location_off = FlutterIconData.materialIcons(57543);
   static const IconData location_on = FlutterIconData.materialIcons(57544);
-  static const IconData location_searching =
-      FlutterIconData.materialIcons(57783);
+  static const IconData location_searching = FlutterIconData.materialIcons(57783);
   static const IconData lock = FlutterIconData.materialIcons(59543);
   static const IconData lock_open = FlutterIconData.materialIcons(59544);
   static const IconData lock_outline = FlutterIconData.materialIcons(59545);
@@ -612,8 +529,7 @@ class MaterialIcons {
   static const IconData mail_outline = FlutterIconData.materialIcons(57569);
   static const IconData map = FlutterIconData.materialIcons(58715);
   static const IconData markunread = FlutterIconData.materialIcons(57689);
-  static const IconData markunread_mailbox =
-      FlutterIconData.materialIcons(59547);
+  static const IconData markunread_mailbox = FlutterIconData.materialIcons(59547);
   static const IconData memory = FlutterIconData.materialIcons(58146);
   static const IconData menu = FlutterIconData.materialIcons(58834);
   static const IconData merge_type = FlutterIconData.materialIcons(57938);
@@ -626,8 +542,7 @@ class MaterialIcons {
   static const IconData mode_edit = FlutterIconData.materialIcons(57940);
   static const IconData monetization_on = FlutterIconData.materialIcons(57955);
   static const IconData money_off = FlutterIconData.materialIcons(57948);
-  static const IconData monochrome_photos =
-      FlutterIconData.materialIcons(58371);
+  static const IconData monochrome_photos = FlutterIconData.materialIcons(58371);
   static const IconData mood = FlutterIconData.materialIcons(59378);
   static const IconData mood_bad = FlutterIconData.materialIcons(59379);
   static const IconData more = FlutterIconData.materialIcons(58905);
@@ -662,14 +577,10 @@ class MaterialIcons {
   static const IconData note = FlutterIconData.materialIcons(57455);
   static const IconData note_add = FlutterIconData.materialIcons(59548);
   static const IconData notifications = FlutterIconData.materialIcons(59380);
-  static const IconData notifications_active =
-      FlutterIconData.materialIcons(59383);
-  static const IconData notifications_none =
-      FlutterIconData.materialIcons(59381);
-  static const IconData notifications_off =
-      FlutterIconData.materialIcons(59382);
-  static const IconData notifications_paused =
-      FlutterIconData.materialIcons(59384);
+  static const IconData notifications_active = FlutterIconData.materialIcons(59383);
+  static const IconData notifications_none = FlutterIconData.materialIcons(59381);
+  static const IconData notifications_off = FlutterIconData.materialIcons(59382);
+  static const IconData notifications_paused = FlutterIconData.materialIcons(59384);
   static const IconData offline_pin = FlutterIconData.materialIcons(59658);
   static const IconData ondemand_video = FlutterIconData.materialIcons(58938);
   static const IconData opacity = FlutterIconData.materialIcons(59676);
@@ -681,30 +592,21 @@ class MaterialIcons {
   static const IconData palette = FlutterIconData.materialIcons(58378);
   static const IconData pan_tool = FlutterIconData.materialIcons(59685);
   static const IconData panorama = FlutterIconData.materialIcons(58379);
-  static const IconData panorama_fish_eye =
-      FlutterIconData.materialIcons(58380);
-  static const IconData panorama_horizontal =
-      FlutterIconData.materialIcons(58381);
-  static const IconData panorama_vertical =
-      FlutterIconData.materialIcons(58382);
-  static const IconData panorama_wide_angle =
-      FlutterIconData.materialIcons(58383);
+  static const IconData panorama_fish_eye = FlutterIconData.materialIcons(58380);
+  static const IconData panorama_horizontal = FlutterIconData.materialIcons(58381);
+  static const IconData panorama_vertical = FlutterIconData.materialIcons(58382);
+  static const IconData panorama_wide_angle = FlutterIconData.materialIcons(58383);
   static const IconData party_mode = FlutterIconData.materialIcons(59386);
   static const IconData pause = FlutterIconData.materialIcons(57396);
-  static const IconData pause_circle_filled =
-      FlutterIconData.materialIcons(57397);
-  static const IconData pause_circle_outline =
-      FlutterIconData.materialIcons(57398);
+  static const IconData pause_circle_filled = FlutterIconData.materialIcons(57397);
+  static const IconData pause_circle_outline = FlutterIconData.materialIcons(57398);
   static const IconData payment = FlutterIconData.materialIcons(59553);
   static const IconData people = FlutterIconData.materialIcons(59387);
   static const IconData people_outline = FlutterIconData.materialIcons(59388);
   static const IconData perm_camera_mic = FlutterIconData.materialIcons(59554);
-  static const IconData perm_contact_calendar =
-      FlutterIconData.materialIcons(59555);
-  static const IconData perm_data_setting =
-      FlutterIconData.materialIcons(59556);
-  static const IconData perm_device_information =
-      FlutterIconData.materialIcons(59557);
+  static const IconData perm_contact_calendar = FlutterIconData.materialIcons(59555);
+  static const IconData perm_data_setting = FlutterIconData.materialIcons(59556);
+  static const IconData perm_device_information = FlutterIconData.materialIcons(59557);
   static const IconData perm_identity = FlutterIconData.materialIcons(59558);
   static const IconData perm_media = FlutterIconData.materialIcons(59559);
   static const IconData perm_phone_msg = FlutterIconData.materialIcons(59560);
@@ -713,14 +615,12 @@ class MaterialIcons {
   static const IconData person_add = FlutterIconData.materialIcons(59390);
   static const IconData person_outline = FlutterIconData.materialIcons(59391);
   static const IconData person_pin = FlutterIconData.materialIcons(58714);
-  static const IconData person_pin_circle =
-      FlutterIconData.materialIcons(58730);
+  static const IconData person_pin_circle = FlutterIconData.materialIcons(58730);
   static const IconData personal_video = FlutterIconData.materialIcons(58939);
   static const IconData pets = FlutterIconData.materialIcons(59677);
   static const IconData phone = FlutterIconData.materialIcons(57549);
   static const IconData phone_android = FlutterIconData.materialIcons(58148);
-  static const IconData phone_bluetooth_speaker =
-      FlutterIconData.materialIcons(58907);
+  static const IconData phone_bluetooth_speaker = FlutterIconData.materialIcons(58907);
   static const IconData phone_forwarded = FlutterIconData.materialIcons(58908);
   static const IconData phone_in_talk = FlutterIconData.materialIcons(58909);
   static const IconData phone_iphone = FlutterIconData.materialIcons(58149);
@@ -738,43 +638,32 @@ class MaterialIcons {
   static const IconData photo_camera = FlutterIconData.materialIcons(58386);
   static const IconData photo_filter = FlutterIconData.materialIcons(58427);
   static const IconData photo_library = FlutterIconData.materialIcons(58387);
-  static const IconData photo_size_select_actual =
-      FlutterIconData.materialIcons(58418);
-  static const IconData photo_size_select_large =
-      FlutterIconData.materialIcons(58419);
-  static const IconData photo_size_select_small =
-      FlutterIconData.materialIcons(58420);
+  static const IconData photo_size_select_actual = FlutterIconData.materialIcons(58418);
+  static const IconData photo_size_select_large = FlutterIconData.materialIcons(58419);
+  static const IconData photo_size_select_small = FlutterIconData.materialIcons(58420);
   static const IconData picture_as_pdf = FlutterIconData.materialIcons(58389);
-  static const IconData picture_in_picture =
-      FlutterIconData.materialIcons(59562);
-  static const IconData picture_in_picture_alt =
-      FlutterIconData.materialIcons(59665);
+  static const IconData picture_in_picture = FlutterIconData.materialIcons(59562);
+  static const IconData picture_in_picture_alt = FlutterIconData.materialIcons(59665);
   static const IconData pie_chart = FlutterIconData.materialIcons(59076);
-  static const IconData pie_chart_outlined =
-      FlutterIconData.materialIcons(59077);
+  static const IconData pie_chart_outlined = FlutterIconData.materialIcons(59077);
   static const IconData pin_drop = FlutterIconData.materialIcons(58718);
   static const IconData place = FlutterIconData.materialIcons(58719);
   static const IconData play_arrow = FlutterIconData.materialIcons(57399);
-  static const IconData play_circle_filled =
-      FlutterIconData.materialIcons(57400);
-  static const IconData play_circle_outline =
-      FlutterIconData.materialIcons(57401);
+  static const IconData play_circle_filled = FlutterIconData.materialIcons(57400);
+  static const IconData play_circle_outline = FlutterIconData.materialIcons(57401);
   static const IconData play_for_work = FlutterIconData.materialIcons(59654);
   static const IconData playlist_add = FlutterIconData.materialIcons(57403);
-  static const IconData playlist_add_check =
-      FlutterIconData.materialIcons(57445);
+  static const IconData playlist_add_check = FlutterIconData.materialIcons(57445);
   static const IconData playlist_play = FlutterIconData.materialIcons(57439);
   static const IconData plus_one = FlutterIconData.materialIcons(59392);
   static const IconData poll = FlutterIconData.materialIcons(59393);
   static const IconData polymer = FlutterIconData.materialIcons(59563);
   static const IconData pool = FlutterIconData.materialIcons(60232);
-  static const IconData portable_wifi_off =
-      FlutterIconData.materialIcons(57550);
+  static const IconData portable_wifi_off = FlutterIconData.materialIcons(57550);
   static const IconData portrait = FlutterIconData.materialIcons(58390);
   static const IconData power = FlutterIconData.materialIcons(58940);
   static const IconData power_input = FlutterIconData.materialIcons(58166);
-  static const IconData power_settings_new =
-      FlutterIconData.materialIcons(59564);
+  static const IconData power_settings_new = FlutterIconData.materialIcons(59564);
   static const IconData pregnant_woman = FlutterIconData.materialIcons(59678);
   static const IconData present_to_all = FlutterIconData.materialIcons(57567);
   static const IconData print = FlutterIconData.materialIcons(59565);
@@ -787,27 +676,21 @@ class MaterialIcons {
   static const IconData queue_music = FlutterIconData.materialIcons(57405);
   static const IconData queue_play_next = FlutterIconData.materialIcons(57446);
   static const IconData radio = FlutterIconData.materialIcons(57406);
-  static const IconData radio_button_checked =
-      FlutterIconData.materialIcons(59447);
-  static const IconData radio_button_unchecked =
-      FlutterIconData.materialIcons(59446);
+  static const IconData radio_button_checked = FlutterIconData.materialIcons(59447);
+  static const IconData radio_button_unchecked = FlutterIconData.materialIcons(59446);
   static const IconData rate_review = FlutterIconData.materialIcons(58720);
   static const IconData receipt = FlutterIconData.materialIcons(59568);
   static const IconData recent_actors = FlutterIconData.materialIcons(57407);
-  static const IconData record_voice_over =
-      FlutterIconData.materialIcons(59679);
+  static const IconData record_voice_over = FlutterIconData.materialIcons(59679);
   static const IconData redeem = FlutterIconData.materialIcons(59569);
   static const IconData redo = FlutterIconData.materialIcons(57690);
   static const IconData refresh = FlutterIconData.materialIcons(58837);
   static const IconData remove = FlutterIconData.materialIcons(57691);
   static const IconData remove_circle = FlutterIconData.materialIcons(57692);
-  static const IconData remove_circle_outline =
-      FlutterIconData.materialIcons(57693);
-  static const IconData remove_from_queue =
-      FlutterIconData.materialIcons(57447);
+  static const IconData remove_circle_outline = FlutterIconData.materialIcons(57693);
+  static const IconData remove_from_queue = FlutterIconData.materialIcons(57447);
   static const IconData remove_red_eye = FlutterIconData.materialIcons(58391);
-  static const IconData remove_shopping_cart =
-      FlutterIconData.materialIcons(59688);
+  static const IconData remove_shopping_cart = FlutterIconData.materialIcons(59688);
   static const IconData reorder = FlutterIconData.materialIcons(59646);
   static const IconData repeat = FlutterIconData.materialIcons(57408);
   static const IconData repeat_one = FlutterIconData.materialIcons(57409);
@@ -826,8 +709,7 @@ class MaterialIcons {
   static const IconData ring_volume = FlutterIconData.materialIcons(57553);
   static const IconData room = FlutterIconData.materialIcons(59572);
   static const IconData room_service = FlutterIconData.materialIcons(60233);
-  static const IconData rotate_90_degrees_ccw =
-      FlutterIconData.materialIcons(58392);
+  static const IconData rotate_90_degrees_ccw = FlutterIconData.materialIcons(58392);
   static const IconData rotate_left = FlutterIconData.materialIcons(58393);
   static const IconData rotate_right = FlutterIconData.materialIcons(58394);
   static const IconData rounded_corner = FlutterIconData.materialIcons(59680);
@@ -840,12 +722,9 @@ class MaterialIcons {
   static const IconData scanner = FlutterIconData.materialIcons(58153);
   static const IconData schedule = FlutterIconData.materialIcons(59573);
   static const IconData school = FlutterIconData.materialIcons(59404);
-  static const IconData screen_lock_landscape =
-      FlutterIconData.materialIcons(57790);
-  static const IconData screen_lock_portrait =
-      FlutterIconData.materialIcons(57791);
-  static const IconData screen_lock_rotation =
-      FlutterIconData.materialIcons(57792);
+  static const IconData screen_lock_landscape = FlutterIconData.materialIcons(57790);
+  static const IconData screen_lock_portrait = FlutterIconData.materialIcons(57791);
+  static const IconData screen_lock_rotation = FlutterIconData.materialIcons(57792);
   static const IconData screen_rotation = FlutterIconData.materialIcons(57793);
   static const IconData screen_share = FlutterIconData.materialIcons(57570);
   static const IconData sd_card = FlutterIconData.materialIcons(58915);
@@ -854,45 +733,28 @@ class MaterialIcons {
   static const IconData security = FlutterIconData.materialIcons(58154);
   static const IconData select_all = FlutterIconData.materialIcons(57698);
   static const IconData send = FlutterIconData.materialIcons(57699);
-  static const IconData sentiment_dissatisfied =
-      FlutterIconData.materialIcons(59409);
-  static const IconData sentiment_neutral =
-      FlutterIconData.materialIcons(59410);
-  static const IconData sentiment_satisfied =
-      FlutterIconData.materialIcons(59411);
-  static const IconData sentiment_very_dissatisfied =
-      FlutterIconData.materialIcons(59412);
-  static const IconData sentiment_very_satisfied =
-      FlutterIconData.materialIcons(59413);
+  static const IconData sentiment_dissatisfied = FlutterIconData.materialIcons(59409);
+  static const IconData sentiment_neutral = FlutterIconData.materialIcons(59410);
+  static const IconData sentiment_satisfied = FlutterIconData.materialIcons(59411);
+  static const IconData sentiment_very_dissatisfied = FlutterIconData.materialIcons(59412);
+  static const IconData sentiment_very_satisfied = FlutterIconData.materialIcons(59413);
   static const IconData settings = FlutterIconData.materialIcons(59576);
-  static const IconData settings_applications =
-      FlutterIconData.materialIcons(59577);
-  static const IconData settings_backup_restore =
-      FlutterIconData.materialIcons(59578);
-  static const IconData settings_bluetooth =
-      FlutterIconData.materialIcons(59579);
-  static const IconData settings_brightness =
-      FlutterIconData.materialIcons(59581);
+  static const IconData settings_applications = FlutterIconData.materialIcons(59577);
+  static const IconData settings_backup_restore = FlutterIconData.materialIcons(59578);
+  static const IconData settings_bluetooth = FlutterIconData.materialIcons(59579);
+  static const IconData settings_brightness = FlutterIconData.materialIcons(59581);
   static const IconData settings_cell = FlutterIconData.materialIcons(59580);
-  static const IconData settings_ethernet =
-      FlutterIconData.materialIcons(59582);
-  static const IconData settings_input_antenna =
-      FlutterIconData.materialIcons(59583);
-  static const IconData settings_input_component =
-      FlutterIconData.materialIcons(59584);
-  static const IconData settings_input_composite =
-      FlutterIconData.materialIcons(59585);
-  static const IconData settings_input_hdmi =
-      FlutterIconData.materialIcons(59586);
-  static const IconData settings_input_svideo =
-      FlutterIconData.materialIcons(59587);
-  static const IconData settings_overscan =
-      FlutterIconData.materialIcons(59588);
+  static const IconData settings_ethernet = FlutterIconData.materialIcons(59582);
+  static const IconData settings_input_antenna = FlutterIconData.materialIcons(59583);
+  static const IconData settings_input_component = FlutterIconData.materialIcons(59584);
+  static const IconData settings_input_composite = FlutterIconData.materialIcons(59585);
+  static const IconData settings_input_hdmi = FlutterIconData.materialIcons(59586);
+  static const IconData settings_input_svideo = FlutterIconData.materialIcons(59587);
+  static const IconData settings_overscan = FlutterIconData.materialIcons(59588);
   static const IconData settings_phone = FlutterIconData.materialIcons(59589);
   static const IconData settings_power = FlutterIconData.materialIcons(59590);
   static const IconData settings_remote = FlutterIconData.materialIcons(59591);
-  static const IconData settings_system_daydream =
-      FlutterIconData.materialIcons(57795);
+  static const IconData settings_system_daydream = FlutterIconData.materialIcons(57795);
   static const IconData settings_voice = FlutterIconData.materialIcons(59592);
   static const IconData share = FlutterIconData.materialIcons(59405);
   static const IconData shop = FlutterIconData.materialIcons(59593);
@@ -902,28 +764,20 @@ class MaterialIcons {
   static const IconData short_text = FlutterIconData.materialIcons(57953);
   static const IconData show_chart = FlutterIconData.materialIcons(59105);
   static const IconData shuffle = FlutterIconData.materialIcons(57411);
-  static const IconData signal_cellular_4_bar =
-      FlutterIconData.materialIcons(57800);
-  static const IconData signal_cellular_connected_no_internet_4_bar =
-      FlutterIconData.materialIcons(57805);
-  static const IconData signal_cellular_no_sim =
-      FlutterIconData.materialIcons(57806);
-  static const IconData signal_cellular_null =
-      FlutterIconData.materialIcons(57807);
-  static const IconData signal_cellular_off =
-      FlutterIconData.materialIcons(57808);
-  static const IconData signal_wifi_4_bar =
-      FlutterIconData.materialIcons(57816);
-  static const IconData signal_wifi_4_bar_lock =
-      FlutterIconData.materialIcons(57817);
+  static const IconData signal_cellular_4_bar = FlutterIconData.materialIcons(57800);
+  static const IconData signal_cellular_connected_no_internet_4_bar = FlutterIconData.materialIcons(57805);
+  static const IconData signal_cellular_no_sim = FlutterIconData.materialIcons(57806);
+  static const IconData signal_cellular_null = FlutterIconData.materialIcons(57807);
+  static const IconData signal_cellular_off = FlutterIconData.materialIcons(57808);
+  static const IconData signal_wifi_4_bar = FlutterIconData.materialIcons(57816);
+  static const IconData signal_wifi_4_bar_lock = FlutterIconData.materialIcons(57817);
   static const IconData signal_wifi_off = FlutterIconData.materialIcons(57818);
   static const IconData sim_card = FlutterIconData.materialIcons(58155);
   static const IconData sim_card_alert = FlutterIconData.materialIcons(58916);
   static const IconData skip_next = FlutterIconData.materialIcons(57412);
   static const IconData skip_previous = FlutterIconData.materialIcons(57413);
   static const IconData slideshow = FlutterIconData.materialIcons(58395);
-  static const IconData slow_motion_video =
-      FlutterIconData.materialIcons(57448);
+  static const IconData slow_motion_video = FlutterIconData.materialIcons(57448);
   static const IconData smartphone = FlutterIconData.materialIcons(58156);
   static const IconData smoke_free = FlutterIconData.materialIcons(60234);
   static const IconData smoking_rooms = FlutterIconData.materialIcons(60235);
@@ -937,57 +791,45 @@ class MaterialIcons {
   static const IconData speaker = FlutterIconData.materialIcons(58157);
   static const IconData speaker_group = FlutterIconData.materialIcons(58158);
   static const IconData speaker_notes = FlutterIconData.materialIcons(59597);
-  static const IconData speaker_notes_off =
-      FlutterIconData.materialIcons(59690);
+  static const IconData speaker_notes_off = FlutterIconData.materialIcons(59690);
   static const IconData speaker_phone = FlutterIconData.materialIcons(57554);
   static const IconData spellcheck = FlutterIconData.materialIcons(59598);
   static const IconData star = FlutterIconData.materialIcons(59448);
   static const IconData star_border = FlutterIconData.materialIcons(59450);
   static const IconData star_half = FlutterIconData.materialIcons(59449);
   static const IconData stars = FlutterIconData.materialIcons(59600);
-  static const IconData stay_current_landscape =
-      FlutterIconData.materialIcons(57555);
-  static const IconData stay_current_portrait =
-      FlutterIconData.materialIcons(57556);
-  static const IconData stay_primary_landscape =
-      FlutterIconData.materialIcons(57557);
-  static const IconData stay_primary_portrait =
-      FlutterIconData.materialIcons(57558);
+  static const IconData stay_current_landscape = FlutterIconData.materialIcons(57555);
+  static const IconData stay_current_portrait = FlutterIconData.materialIcons(57556);
+  static const IconData stay_primary_landscape = FlutterIconData.materialIcons(57557);
+  static const IconData stay_primary_portrait = FlutterIconData.materialIcons(57558);
   static const IconData stop = FlutterIconData.materialIcons(57415);
-  static const IconData stop_screen_share =
-      FlutterIconData.materialIcons(57571);
+  static const IconData stop_screen_share = FlutterIconData.materialIcons(57571);
   static const IconData storage = FlutterIconData.materialIcons(57819);
   static const IconData store = FlutterIconData.materialIcons(59601);
-  static const IconData store_mall_directory =
-      FlutterIconData.materialIcons(58723);
+  static const IconData store_mall_directory = FlutterIconData.materialIcons(58723);
   static const IconData straighten = FlutterIconData.materialIcons(58396);
   static const IconData streetview = FlutterIconData.materialIcons(58734);
   static const IconData strikethrough_s = FlutterIconData.materialIcons(57943);
   static const IconData style = FlutterIconData.materialIcons(58397);
-  static const IconData subdirectory_arrow_left =
-      FlutterIconData.materialIcons(58841);
-  static const IconData subdirectory_arrow_right =
-      FlutterIconData.materialIcons(58842);
+  static const IconData subdirectory_arrow_left = FlutterIconData.materialIcons(58841);
+  static const IconData subdirectory_arrow_right = FlutterIconData.materialIcons(58842);
   static const IconData subject = FlutterIconData.materialIcons(59602);
   static const IconData subscriptions = FlutterIconData.materialIcons(57444);
   static const IconData subtitles = FlutterIconData.materialIcons(57416);
   static const IconData subway = FlutterIconData.materialIcons(58735);
-  static const IconData supervisor_account =
-      FlutterIconData.materialIcons(59603);
+  static const IconData supervisor_account = FlutterIconData.materialIcons(59603);
   static const IconData surround_sound = FlutterIconData.materialIcons(57417);
   static const IconData swap_calls = FlutterIconData.materialIcons(57559);
   static const IconData swap_horiz = FlutterIconData.materialIcons(59604);
   static const IconData swap_vert = FlutterIconData.materialIcons(59605);
-  static const IconData swap_vertical_circle =
-      FlutterIconData.materialIcons(59606);
+  static const IconData swap_vertical_circle = FlutterIconData.materialIcons(59606);
   static const IconData switch_camera = FlutterIconData.materialIcons(58398);
   static const IconData switch_video = FlutterIconData.materialIcons(58399);
   static const IconData sync = FlutterIconData.materialIcons(58919);
   static const IconData sync_disabled = FlutterIconData.materialIcons(58920);
   static const IconData sync_problem = FlutterIconData.materialIcons(58921);
   static const IconData system_update = FlutterIconData.materialIcons(58922);
-  static const IconData system_update_alt =
-      FlutterIconData.materialIcons(59607);
+  static const IconData system_update_alt = FlutterIconData.materialIcons(59607);
   static const IconData tab = FlutterIconData.materialIcons(59608);
   static const IconData tab_unselected = FlutterIconData.materialIcons(59609);
   static const IconData tablet = FlutterIconData.materialIcons(58159);
@@ -1022,8 +864,7 @@ class MaterialIcons {
   static const IconData traffic = FlutterIconData.materialIcons(58725);
   static const IconData train = FlutterIconData.materialIcons(58736);
   static const IconData tram = FlutterIconData.materialIcons(58737);
-  static const IconData transfer_within_a_station =
-      FlutterIconData.materialIcons(58738);
+  static const IconData transfer_within_a_station = FlutterIconData.materialIcons(58738);
   static const IconData transform = FlutterIconData.materialIcons(58408);
   static const IconData translate = FlutterIconData.materialIcons(59618);
   static const IconData trending_down = FlutterIconData.materialIcons(59619);
@@ -1040,12 +881,9 @@ class MaterialIcons {
   static const IconData update = FlutterIconData.materialIcons(59683);
   static const IconData usb = FlutterIconData.materialIcons(57824);
   static const IconData verified_user = FlutterIconData.materialIcons(59624);
-  static const IconData vertical_align_bottom =
-      FlutterIconData.materialIcons(57944);
-  static const IconData vertical_align_center =
-      FlutterIconData.materialIcons(57945);
-  static const IconData vertical_align_top =
-      FlutterIconData.materialIcons(57946);
+  static const IconData vertical_align_bottom = FlutterIconData.materialIcons(57944);
+  static const IconData vertical_align_center = FlutterIconData.materialIcons(57945);
+  static const IconData vertical_align_top = FlutterIconData.materialIcons(57946);
   static const IconData vibration = FlutterIconData.materialIcons(58925);
   static const IconData video_call = FlutterIconData.materialIcons(57456);
   static const IconData video_label = FlutterIconData.materialIcons(57457);
@@ -1097,8 +935,7 @@ class MaterialIcons {
   static const IconData wifi_tethering = FlutterIconData.materialIcons(57826);
   static const IconData work = FlutterIconData.materialIcons(59641);
   static const IconData wrap_text = FlutterIconData.materialIcons(57947);
-  static const IconData youtube_searched_for =
-      FlutterIconData.materialIcons(59642);
+  static const IconData youtube_searched_for = FlutterIconData.materialIcons(59642);
   static const IconData zoom_in = FlutterIconData.materialIcons(59647);
   static const IconData zoom_out = FlutterIconData.materialIcons(59648);
   static const IconData zoom_out_map = FlutterIconData.materialIcons(58731);

@@ -28,21 +28,16 @@ class SimpleLineIcons {
   static const IconData layers = FlutterIconData.simpleLineIcons(57396);
   static const IconData menu = FlutterIconData.simpleLineIcons(58881);
   static const IconData list = FlutterIconData.simpleLineIcons(57447);
-  static const IconData options_vertical =
-      FlutterIconData.simpleLineIcons(58882);
+  static const IconData options_vertical = FlutterIconData.simpleLineIcons(58882);
   static const IconData options = FlutterIconData.simpleLineIcons(58883);
   static const IconData arrow_down = FlutterIconData.simpleLineIcons(58884);
   static const IconData arrow_left = FlutterIconData.simpleLineIcons(58885);
   static const IconData arrow_right = FlutterIconData.simpleLineIcons(58886);
   static const IconData arrow_up = FlutterIconData.simpleLineIcons(58887);
-  static const IconData arrow_up_circle =
-      FlutterIconData.simpleLineIcons(57464);
-  static const IconData arrow_left_circle =
-      FlutterIconData.simpleLineIcons(57466);
-  static const IconData arrow_right_circle =
-      FlutterIconData.simpleLineIcons(57465);
-  static const IconData arrow_down_circle =
-      FlutterIconData.simpleLineIcons(57467);
+  static const IconData arrow_up_circle = FlutterIconData.simpleLineIcons(57464);
+  static const IconData arrow_left_circle = FlutterIconData.simpleLineIcons(57466);
+  static const IconData arrow_right_circle = FlutterIconData.simpleLineIcons(57465);
+  static const IconData arrow_down_circle = FlutterIconData.simpleLineIcons(57467);
   static const IconData check = FlutterIconData.simpleLineIcons(57472);
   static const IconData clock = FlutterIconData.simpleLineIcons(57473);
   static const IconData plus = FlutterIconData.simpleLineIcons(57493);
@@ -52,8 +47,7 @@ class SimpleLineIcons {
   static const IconData exclamation = FlutterIconData.simpleLineIcons(58903);
   static const IconData organization = FlutterIconData.simpleLineIcons(58902);
   static const IconData trophy = FlutterIconData.simpleLineIcons(57350);
-  static const IconData screen_smartphone =
-      FlutterIconData.simpleLineIcons(57360);
+  static const IconData screen_smartphone = FlutterIconData.simpleLineIcons(57360);
   static const IconData screen_desktop = FlutterIconData.simpleLineIcons(57361);
   static const IconData plane = FlutterIconData.simpleLineIcons(57362);
   static const IconData notebook = FlutterIconData.simpleLineIcons(57363);
@@ -73,13 +67,11 @@ class SimpleLineIcons {
   static const IconData hourglass = FlutterIconData.simpleLineIcons(57368);
   static const IconData graduation = FlutterIconData.simpleLineIcons(57369);
   static const IconData ghost = FlutterIconData.simpleLineIcons(57370);
-  static const IconData game_controller =
-      FlutterIconData.simpleLineIcons(57371);
+  static const IconData game_controller = FlutterIconData.simpleLineIcons(57371);
   static const IconData fire = FlutterIconData.simpleLineIcons(57372);
   static const IconData eyeglass = FlutterIconData.simpleLineIcons(57373);
   static const IconData envelope_open = FlutterIconData.simpleLineIcons(57374);
-  static const IconData envelope_letter =
-      FlutterIconData.simpleLineIcons(57375);
+  static const IconData envelope_letter = FlutterIconData.simpleLineIcons(57375);
   static const IconData bell = FlutterIconData.simpleLineIcons(57383);
   static const IconData badge = FlutterIconData.simpleLineIcons(57384);
   static const IconData anchor = FlutterIconData.simpleLineIcons(57385);
@@ -120,8 +112,7 @@ class SimpleLineIcons {
   static const IconData tag = FlutterIconData.simpleLineIcons(57429);
   static const IconData support = FlutterIconData.simpleLineIcons(57430);
   static const IconData frame = FlutterIconData.simpleLineIcons(57400);
-  static const IconData size_fullscreen =
-      FlutterIconData.simpleLineIcons(57431);
+  static const IconData size_fullscreen = FlutterIconData.simpleLineIcons(57431);
   static const IconData size_actual = FlutterIconData.simpleLineIcons(57432);
   static const IconData shuffle = FlutterIconData.simpleLineIcons(57433);
   static const IconData share_alt = FlutterIconData.simpleLineIcons(57434);
@@ -147,8 +138,7 @@ class SimpleLineIcons {
   static const IconData control_rewind = FlutterIconData.simpleLineIcons(57456);
   static const IconData control_play = FlutterIconData.simpleLineIcons(57457);
   static const IconData control_pause = FlutterIconData.simpleLineIcons(57458);
-  static const IconData control_forward =
-      FlutterIconData.simpleLineIcons(57459);
+  static const IconData control_forward = FlutterIconData.simpleLineIcons(57459);
   static const IconData control_end = FlutterIconData.simpleLineIcons(57460);
   static const IconData volume_1 = FlutterIconData.simpleLineIcons(57503);
   static const IconData volume_2 = FlutterIconData.simpleLineIcons(57504);
@@ -173,8 +163,7 @@ class SimpleLineIcons {
   static const IconData lock_open = FlutterIconData.simpleLineIcons(57487);
   static const IconData magnifier = FlutterIconData.simpleLineIcons(57488);
   static const IconData magnifier_add = FlutterIconData.simpleLineIcons(57489);
-  static const IconData magnifier_remove =
-      FlutterIconData.simpleLineIcons(57490);
+  static const IconData magnifier_remove = FlutterIconData.simpleLineIcons(57490);
   static const IconData paper_clip = FlutterIconData.simpleLineIcons(57491);
   static const IconData paper_plane = FlutterIconData.simpleLineIcons(57492);
   static const IconData power = FlutterIconData.simpleLineIcons(57495);
@@ -189,31 +178,22 @@ class SimpleLineIcons {
   static const IconData paypal = FlutterIconData.simpleLineIcons(58888);
   static const IconData social_tumblr = FlutterIconData.simpleLineIcons(57354);
   static const IconData social_twitter = FlutterIconData.simpleLineIcons(57353);
-  static const IconData social_facebook =
-      FlutterIconData.simpleLineIcons(57355);
-  static const IconData social_instagram =
-      FlutterIconData.simpleLineIcons(58889);
-  static const IconData social_linkedin =
-      FlutterIconData.simpleLineIcons(58890);
-  static const IconData social_pinterest =
-      FlutterIconData.simpleLineIcons(58891);
+  static const IconData social_facebook = FlutterIconData.simpleLineIcons(57355);
+  static const IconData social_instagram = FlutterIconData.simpleLineIcons(58889);
+  static const IconData social_linkedin = FlutterIconData.simpleLineIcons(58890);
+  static const IconData social_pinterest = FlutterIconData.simpleLineIcons(58891);
   static const IconData social_github = FlutterIconData.simpleLineIcons(58892);
   static const IconData social_google = FlutterIconData.simpleLineIcons(58893);
   static const IconData social_reddit = FlutterIconData.simpleLineIcons(58894);
   static const IconData social_skype = FlutterIconData.simpleLineIcons(58895);
-  static const IconData social_dribbble =
-      FlutterIconData.simpleLineIcons(57357);
+  static const IconData social_dribbble = FlutterIconData.simpleLineIcons(57357);
   static const IconData social_behance = FlutterIconData.simpleLineIcons(58896);
-  static const IconData social_foursqare =
-      FlutterIconData.simpleLineIcons(58897);
-  static const IconData social_soundcloud =
-      FlutterIconData.simpleLineIcons(58898);
+  static const IconData social_foursqare = FlutterIconData.simpleLineIcons(58897);
+  static const IconData social_soundcloud = FlutterIconData.simpleLineIcons(58898);
   static const IconData social_spotify = FlutterIconData.simpleLineIcons(58899);
-  static const IconData social_stumbleupon =
-      FlutterIconData.simpleLineIcons(58900);
+  static const IconData social_stumbleupon = FlutterIconData.simpleLineIcons(58900);
   static const IconData social_youtube = FlutterIconData.simpleLineIcons(57352);
   static const IconData social_dropbox = FlutterIconData.simpleLineIcons(57356);
-  static const IconData social_vkontakte =
-      FlutterIconData.simpleLineIcons(58904);
+  static const IconData social_vkontakte = FlutterIconData.simpleLineIcons(58904);
   static const IconData social_steam = FlutterIconData.simpleLineIcons(58912);
 }
