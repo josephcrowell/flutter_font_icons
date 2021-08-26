@@ -18,7 +18,7 @@ void main() {
     if (!file.existsSync()) file.createSync();
     String allStr = """
     import 'package:flutter/material.dart';
-    import 'package:flutter_vector_icons/src/flutter_icon_data.dart';""";
+    import 'package:flutter_font_icons/src/flutter_icon_data.dart';""";
     allStr += "class ${toCamelName("font_awesome_5_${keys[i]}")} { \n";
     List<String> obj = _gly[keys[i]];
     for (int j = 0; j < obj.length; j++) {

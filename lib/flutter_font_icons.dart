@@ -1,6 +1,6 @@
-library flutter_vector_icons;
+library flutter_font_icons;
 
-export 'flutter_vector_icons.dart';
+export 'flutter_font_icons.dart';
 export 'src/ant_design.dart';
 export 'src/entypo.dart';
 export 'src/evil_icons.dart';

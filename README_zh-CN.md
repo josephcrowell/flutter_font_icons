@@ -1,8 +1,8 @@
 [English](./README.md) | 简体中文
 
-# flutter_vector_icons
+# flutter_font_icons
 
-[![pub package](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
+[![pub package](https://img.shields.io/pub/v/flutter_font_icons.svg)](https://pub.dartlang.org/packages/flutter_font_icons)
 
 在Flutter中使用可定制的图标，该插件包是受到 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)启发而开发
 
@@ -32,13 +32,13 @@
 * [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons)
 
 ## 使用
-要使用此插件包,请将flutter_vector_icons作为依赖项添加到您的`pubspec.yaml`文件中,详见[dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+要使用此插件包,请将flutter_font_icons作为依赖项添加到您的`pubspec.yaml`文件中,详见[dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## 示例
 
 ``` dart
 // 引入包
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+import 'package:flutter_font_icons/flutter_font_icons.dart';
 import 'package:flutter/material.dart';
 
 Icon(AntDesign.stepforward),

@@ -12,22 +12,23 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+publish_to: none
+
 dependencies:
   flutter:
     sdk: flutter
 
-  flutter_vector_icons:
+  flutter_font_icons:
   # path: ../
-    publish_to: none
     git:
-      url: https://github.com/josephcrowell/flutter-vector-icons.git
+      url: https://github.com/josephcrowell/flutter-font-icons.git
       ref: 2.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter_vector_icons:
+flutter_font_icons:
   includes:
     - ant
 # For information on the generic Dart part of this file, see the

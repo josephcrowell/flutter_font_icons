@@ -5,8 +5,8 @@
     "version": "2.1.1",
     "configurations": [
         {
-            "name": "Flutter Vector Icons",
-            "program": "lib/flutter_vector_icons.dart",
+            "name": "Flutter Font Icons",
+            "program": "lib/flutter_font_icons.dart",
             "request": "launch",
             "type": "dart"
         }

@@ -1,8 +1,8 @@
-# flutter_vector_icons
+# flutter_font_icons
 
 English | [简体中文](./README_zh-CN.md)
 
-[![pub package](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
+[![pub package](https://img.shields.io/pub/v/flutter_font_icons.svg)](https://pub.dartlang.org/packages/flutter_font_icons)
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -34,7 +34,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 
 ## Usage
 
-To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `flutter_font_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Widget
 
@@ -57,7 +57,7 @@ To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.
 ``` dart
 // Import package
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+import 'package:flutter_font_icons/flutter_font_icons.dart';
 
 // Include icons with
 Icon(AntDesign.stepforward),

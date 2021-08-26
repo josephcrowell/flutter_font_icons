@@ -2,11 +2,11 @@ import 'dart:io';
 
 main(List<String> args) {
   Directory directory = Directory("../lib/src");
-  File flutterIconFile = File('../lib/src/flutter_vector_icons.dart');
+  File flutterIconFile = File('../lib/src/flutter_font_icons.dart');
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
   String str = '''
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/src/flutter_icon_data.dart';
+import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 class FlutterIcons {
   FlutterIcons._();
   ''';
