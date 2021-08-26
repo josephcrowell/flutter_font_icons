@@ -3,7 +3,7 @@ import 'package:flutter_vector_icons/src/flutter_icon_data.dart';
 
 /// all Icons under MaterialCommunityIcons
 ///
-/// https://ionicons.com/
+/// https://materialdesignicons.com/
 class MaterialCommunityIcons {
   MaterialCommunityIcons._();
 
