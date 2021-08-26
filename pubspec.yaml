@@ -1,6 +1,6 @@
 name: flutter_vector_icons
 description: Customizable Icons for Flutter，you can use with over 3K+ icons in your flutter project
-version: 2.1.0
+version: 2.1.1
 homepage: https://github.com/josephcrowell/flutter-vector-icons
 
 environment:
