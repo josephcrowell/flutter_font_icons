@@ -8,9 +8,9 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 
 ## Notice
 >>
->> 1. `v1.0.0` has major Api changes, please be careful to upgrade
+>> 1. `v2.0.0` has major Api changes, please be careful when upgrading
 >> 2. icon names that begin with a number are preceded by a `$`prefix
->> 3. icon named with the dart keyword have the `_` suffix added
+>> 3. icons named with a `dart` language keyword have the `_` suffix added
 
 ## Bundled Icon Sets
 
@@ -59,93 +59,12 @@ To use this plugin, add `flutter_vector_icons` as a [dependency in your pubspec.
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
-// 1.0.0 version used
+// Include icons with
 Icon(AntDesign.stepforward),
 Icon(Ionicons.ios_search),
 Icon(FontAwesome.glass),
 Icon(MaterialIcons.ac_unit),
 Icon(FontAwesome5.address_book),
 Icon(FontAwesome5Solid.address_book),
-Icon(FontAwesome5Brands.$500px)
-
-// After 1.1.0, the FlutterVectorIcons class provides access to all Icons
-// Icon name in the original basis added icon set abbreviation name as suffix
-// Hereinafter referred to as the following
-//Ant Design Icons -> ant,
-//Entypo Icons -> ent,
-//Evil Icons -> evi,
-//Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Font Awesome 5 Regular -> faw5
-//Font Awesome 5 Solid -> faw5s
-//Font Awesome 5 Brands -> faw5b
-//Foundation Icons -> fou,
-//Ionicons Icons -> ion,
-//Material Community Icons -> mco,
-//Material Icons -> mdi,
-//Octicons Icons -> oct,
-//Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
-//Weather Icons -> wea
-Icon(FlutterIcons.stepforward_ant)
-Icon(FlutterIcons.html5_faw)
-...
-
-// Previous versions of 1.0.0 are used
-Icon(Ionicons.getIconData("ios-search"));
-Icon(AntDesign.getIconData("stepforward"));
-Icon(FontAwesome.getIconData("glass"));
-Icon(MaterialIcons.getIconData("ac-unit"));
-Icon(FontAwesome5.getIconData("address-book"));
-Icon(FontAwesome5.getIconData("address-book",weight: IconWeight.Solid));
-Icon(FontAwesome5.getIconData("500px", weight: IconWeight.Brand));
-```
-
-### How to keep only the fonts used in the project
-
-#### step 1
-
-Execute the command
-
-```bash
-pub global activate split_icon
-```
-
-#### step2
-
-Add the font you want to leave in the project's pubspec file
-
-```dart
-//Ant Design Icons -> ant,
-//Entypo Icons -> ent,
-//Evil Icons -> evi,
-//Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Font Awesome 5 Regular -> faw5
-//Font Awesome 5 Solid -> faw5s
-//Font Awesome 5 Brands -> faw5b
-//Foundation Icons -> fou,
-//Ionicons Icons -> ion,
-//Material Community Icons -> mco,
-//Material Icons -> mdi,
-//Octicons Icons -> oct,
-//Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
-//Weather Icons -> wea
-
-...
-
-flutter_vector_icons:
-  includes:
-    -ant
-    -mco
- ...
- ```
-
-#### step3
-
-Execute the command in the project directory
-
-```bash
-split_icon
+Icon(FontAwesome5Brands.$500px),
 ```
