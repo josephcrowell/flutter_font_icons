@@ -3,7 +3,7 @@ import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
 /// all Icons under Feather
 ///
-/// http://feathericons.com
+/// https://feathericons.com
 class Feather {
   Feather._();
 

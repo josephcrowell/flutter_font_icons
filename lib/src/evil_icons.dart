@@ -3,7 +3,7 @@ import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
 /// all Icons under EvilIcons
 ///
-/// http://evil-icons.io
+/// https://evil-icons.io
 class EvilIcons {
   EvilIcons._();
 

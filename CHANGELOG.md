@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.2
+## 2.2.0
 
 * Rebrand and update all packages to latest react-native-vector-icons equivalents
 

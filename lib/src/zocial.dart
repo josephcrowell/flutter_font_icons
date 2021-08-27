@@ -3,7 +3,7 @@ import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
 /// all Icons under Zocial
 ///
-/// http://zocial.smcllns.com/
+/// https://zocial.smcllns.com/
 class Zocial {
   Zocial._();
 

@@ -2,8 +2,11 @@ import 'dart:async';
 import 'dart:io';
 import 'a.dart';
 
-String toCamelName(String name) =>
-    name.split('_').map((e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}').toList().join();
+String toCamelName(String name) => name
+    .split('_')
+    .map((e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}')
+    .toList()
+    .join();
 
 String toName(String name) {
   String _name = toCamelName(name);

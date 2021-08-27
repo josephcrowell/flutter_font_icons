@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => ScaleTransition(
+Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) =>
+    ScaleTransition(
       scale: animation,
       child: child,
     );
@@ -31,7 +32,8 @@ class IconToggle extends StatefulWidget {
   _IconToggleState createState() => _IconToggleState();
 }
 
-class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateMixin {
+class _IconToggleState extends State<IconToggle>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _position;
   bool _cancel = false;
@@ -46,7 +48,9 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
     );
     _position = CurvedAnimation(parent: _controller, curve: Curves.linear);
     _position.addStatusListener((status) {
-      if (status == AnimationStatus.dismissed && widget.onChanged != null && _cancel == false) {
+      if (status == AnimationStatus.dismissed &&
+          widget.onChanged != null &&
+          _cancel == false) {
         widget.onChanged!(!widget.value);
       }
     });
@@ -84,7 +88,9 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
             reverseDuration: widget.reverseDuration,
             transitionBuilder: widget.transitionBuilder,
             child: Icon(
-              widget.value ? widget.selectedIconData : widget.unselectedIconData,
+              widget.value
+                  ? widget.selectedIconData
+                  : widget.unselectedIconData,
               color: widget.value ? widget.activeColor : widget.inactiveColor,
               size: 22,
               key: ValueKey<bool>(widget.value),
@@ -134,10 +140,12 @@ class _IconPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
-      ..color = Color.lerp(inactiveColor, activeColor, _value)!.withOpacity(math.min(_value, 0.15))
+      ..color = Color.lerp(inactiveColor, activeColor, _value)!
+          .withOpacity(math.min(_value, 0.15))
       ..style = PaintingStyle.fill
       ..strokeWidth = 2.0;
-    canvas.drawCircle(Offset(size.width / 2, size.height / 2), 20 * _value, paint);
+    canvas.drawCircle(
+        Offset(size.width / 2, size.height / 2), 20 * _value, paint);
   }
 
   @override

@@ -3,7 +3,7 @@ import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
 /// all Icons under Fontisto
 ///
-/// http://fontistoicons.com
+/// https://fontistoicons.com
 class Fontisto {
   Fontisto._();
 
@@ -198,7 +198,8 @@ class Fontisto {
   static const IconData battery_full = FlutterIconData.fontisto(60154);
   static const IconData battery_empty = FlutterIconData.fontisto(60155);
   static const IconData battery_quarter = FlutterIconData.fontisto(60156);
-  static const IconData battery_three_quarters = FlutterIconData.fontisto(60157);
+  static const IconData battery_three_quarters =
+      FlutterIconData.fontisto(60157);
   static const IconData bell_alt = FlutterIconData.fontisto(60158);
   static const IconData bell = FlutterIconData.fontisto(60159);
   static const IconData bookmark_alt = FlutterIconData.fontisto(60160);
@@ -315,7 +316,8 @@ class Fontisto {
   static const IconData shopping_bag = FlutterIconData.fontisto(60012);
   static const IconData shopping_barcode = FlutterIconData.fontisto(60017);
   static const IconData shopping_basket_add = FlutterIconData.fontisto(60018);
-  static const IconData shopping_basket_remove = FlutterIconData.fontisto(60019);
+  static const IconData shopping_basket_remove =
+      FlutterIconData.fontisto(60019);
   static const IconData shopping_basket = FlutterIconData.fontisto(60020);
   static const IconData shopping_package = FlutterIconData.fontisto(60021);
   static const IconData shopping_pos_machine = FlutterIconData.fontisto(60022);
@@ -516,7 +518,8 @@ class Fontisto {
   static const IconData blind = FlutterIconData.fontisto(59649);
   static const IconData braille = FlutterIconData.fontisto(59650);
   static const IconData deaf = FlutterIconData.fontisto(59651);
-  static const IconData fa_american_sign_language_interpreting = FlutterIconData.fontisto(59652);
+  static const IconData fa_american_sign_language_interpreting =
+      FlutterIconData.fontisto(59652);
   static const IconData low_vision = FlutterIconData.fontisto(59654);
   static const IconData tty = FlutterIconData.fontisto(59655);
   static const IconData universal_acces = FlutterIconData.fontisto(59656);
@@ -610,7 +613,8 @@ class Fontisto {
   static const IconData spinner_cog = FlutterIconData.fontisto(59894);
   static const IconData spinner_fidget = FlutterIconData.fontisto(59895);
   static const IconData spinner_refresh = FlutterIconData.fontisto(59896);
-  static const IconData spinner_rotate_forward = FlutterIconData.fontisto(59897);
+  static const IconData spinner_rotate_forward =
+      FlutterIconData.fontisto(59897);
   static const IconData spinner = FlutterIconData.fontisto(59898);
   static const IconData snowflake = FlutterIconData.fontisto(60081);
   static const IconData snowflake_1 = FlutterIconData.fontisto(60073);
