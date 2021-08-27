@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
-/// all Icons under EvilIcons
+/// All Icons provided by EvilIcons
 ///
 /// https://evil-icons.io
 class EvilIcons {

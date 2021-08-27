@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
-/// all Icons under Foundation
+/// All Icons provided by Foundation
 ///
 /// https://zurb.com/playground/foundation-icon-fonts-3
 class Foundation {
@@ -173,8 +173,7 @@ class Foundation {
   static const IconData quote = FlutterIconData.foundation(61859);
   static const IconData record = FlutterIconData.foundation(61860);
   static const IconData refresh = FlutterIconData.foundation(61861);
-  static const IconData results_demographics =
-      FlutterIconData.foundation(61862);
+  static const IconData results_demographics = FlutterIconData.foundation(61862);
   static const IconData results = FlutterIconData.foundation(61863);
   static const IconData rewind_ten = FlutterIconData.foundation(61864);
   static const IconData rewind = FlutterIconData.foundation(61865);
@@ -197,8 +196,7 @@ class Foundation {
   static const IconData social_bing = FlutterIconData.foundation(61882);
   static const IconData social_blogger = FlutterIconData.foundation(61883);
   static const IconData social_delicious = FlutterIconData.foundation(61884);
-  static const IconData social_designer_news =
-      FlutterIconData.foundation(61885);
+  static const IconData social_designer_news = FlutterIconData.foundation(61885);
   static const IconData social_deviant_art = FlutterIconData.foundation(61886);
   static const IconData social_digg = FlutterIconData.foundation(61887);
   static const IconData social_dribbble = FlutterIconData.foundation(61888);
@@ -232,8 +230,7 @@ class Foundation {
   static const IconData social_snapchat = FlutterIconData.foundation(61916);
   static const IconData social_spotify = FlutterIconData.foundation(61917);
   static const IconData social_squidoo = FlutterIconData.foundation(61918);
-  static const IconData social_stack_overflow =
-      FlutterIconData.foundation(61919);
+  static const IconData social_stack_overflow = FlutterIconData.foundation(61919);
   static const IconData social_steam = FlutterIconData.foundation(61920);
   static const IconData social_stumbleupon = FlutterIconData.foundation(61921);
   static const IconData social_treehouse = FlutterIconData.foundation(61922);
@@ -257,8 +254,7 @@ class Foundation {
   static const IconData tablet_portrait = FlutterIconData.foundation(61940);
   static const IconData target_two = FlutterIconData.foundation(61941);
   static const IconData target = FlutterIconData.foundation(61942);
-  static const IconData telephone_accessible =
-      FlutterIconData.foundation(61943);
+  static const IconData telephone_accessible = FlutterIconData.foundation(61943);
   static const IconData telephone = FlutterIconData.foundation(61944);
   static const IconData text_color = FlutterIconData.foundation(61945);
   static const IconData thumbnails = FlutterIconData.foundation(61946);

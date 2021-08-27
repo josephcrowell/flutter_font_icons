@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
-/// all Icons under Feather
+/// All Icons provided by Feather
 ///
 /// https://feathericons.com
 class Feather {

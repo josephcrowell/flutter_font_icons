@@ -4,7 +4,7 @@ English | [简体中文](./README_zh-CN.md)
 
 [![pub package](https://img.shields.io/pub/v/flutter_font_icons.svg)](https://pub.dartlang.org/packages/flutter_font_icons)
 
-Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+Customizable Icons for Flutter, Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
 ## Notice
 >>
@@ -49,7 +49,7 @@ To use this plugin, add `flutter_font_icons` as a [dependency in your pubspec.ya
 | value| Whether this IconToggle is selected. |
 | onChanged | Called when the value of the IconToggle should change. |
 | duration| The duration of the transition from selected Icon to unselected Icon |
-| reverseDuration | he duration of the transition from unselected Icon to selected Icon |
+| reverseDuration | The duration of the transition from unselected Icon to selected Icon |
 | transitionBuilder | Transition animation function between the selected Icon and the unselected Icon |
 
 ## Example

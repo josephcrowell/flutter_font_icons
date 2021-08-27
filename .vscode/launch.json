@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Flutter Font Icons",
-            "program": "lib/flutter_font_icons.dart",
+            "program": "example/lib/main.dart",
             "request": "launch",
             "type": "dart"
         }
