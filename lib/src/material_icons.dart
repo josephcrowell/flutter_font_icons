@@ -321,7 +321,7 @@ class MaterialIcons {
   static const IconData chrome_reader_mode = FlutterIconData.materialIcons(59501);
   static const IconData circle = FlutterIconData.materialIcons(61258);
   static const IconData circle_notifications = FlutterIconData.materialIcons(59796);
-  static const IconData class = FlutterIconData.materialIcons(59502);
+  static const IconData class_ = FlutterIconData.materialIcons(59502);
   static const IconData clean_hands = FlutterIconData.materialIcons(61983);
   static const IconData cleaning_services = FlutterIconData.materialIcons(61695);
   static const IconData clear = FlutterIconData.materialIcons(57676);
