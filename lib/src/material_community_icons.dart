@@ -3523,7 +3523,7 @@ class MaterialCommunityIcons {
   static const IconData notification_clear_all = FlutterIconData.materialCommunityIcons(983967);
   static const IconData npm = FlutterIconData.materialCommunityIcons(984823);
   static const IconData nuke = FlutterIconData.materialCommunityIcons(984740);
-  static const IconData null = FlutterIconData.materialCommunityIcons(985058);
+  static const IconData null_ = FlutterIconData.materialCommunityIcons(985058);
   static const IconData numeric = FlutterIconData.materialCommunityIcons(983968);
   static const IconData numeric_0 = FlutterIconData.materialCommunityIcons(985913);
   static const IconData numeric_0_box = FlutterIconData.materialCommunityIcons(983969);
@@ -4681,7 +4681,7 @@ class MaterialCommunityIcons {
   static const IconData swap_vertical_circle_outline = FlutterIconData.materialCommunityIcons(987108);
   static const IconData swap_vertical_variant = FlutterIconData.materialCommunityIcons(985282);
   static const IconData swim = FlutterIconData.materialCommunityIcons(984291);
-  static const IconData switch = FlutterIconData.materialCommunityIcons(984292);
+  static const IconData switch_ = FlutterIconData.materialCommunityIcons(984292);
   static const IconData sword = FlutterIconData.materialCommunityIcons(984293);
   static const IconData sword_cross = FlutterIconData.materialCommunityIcons(984967);
   static const IconData syllabary_hangul = FlutterIconData.materialCommunityIcons(987955);
