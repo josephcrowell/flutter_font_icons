@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.2
+
+* Add ability to size IconToggle widget
+
 ## 2.2.1
 
 * Rebrand and update all packages to latest react-native-vector-icons equivalents

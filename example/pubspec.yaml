@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_font_icons: ^2.2.1
+  flutter_font_icons: ^2.2.2
 
 dev_dependencies:
   flutter_test:
