@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.3
+
+* Update IconToggle widget with more sane properties and add comments to assist dartdoc
+
 ## 2.2.2
 
 * Add ability to size IconToggle widget

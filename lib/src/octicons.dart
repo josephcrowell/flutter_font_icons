@@ -68,7 +68,8 @@ class Octicons {
   static const IconData file_media = FlutterIconData.octicons(61754);
   static const IconData file_pdf = FlutterIconData.octicons(61755);
   static const IconData file_submodule = FlutterIconData.octicons(61756);
-  static const IconData file_symlink_directory = FlutterIconData.octicons(61757);
+  static const IconData file_symlink_directory =
+      FlutterIconData.octicons(61757);
   static const IconData file_symlink_file = FlutterIconData.octicons(61758);
   static const IconData file_zip = FlutterIconData.octicons(61759);
   static const IconData flame = FlutterIconData.octicons(61760);

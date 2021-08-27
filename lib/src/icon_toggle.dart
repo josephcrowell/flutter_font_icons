@@ -1,40 +1,46 @@
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
+import 'package:flutter/material.dart';
 
-Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => ScaleTransition(
+Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) =>
+    ScaleTransition(
       scale: animation,
       child: child,
     );
 
 /// The toggleable icon widget
 class IconToggle extends StatefulWidget {
+  /// Main constructor for the toggleable icon widget
   IconToggle({
-    this.unselectedIconData = Icons.radio_button_unchecked,
-    this.selectedIconData = Icons.radio_button_checked,
-    this.activeColor = Colors.blue,
-    this.inactiveColor = Colors.grey,
-    this.value = false,
+    this.unselectedIcon = Icons.radio_button_unchecked,
+    this.selectedIcon = Icons.radio_button_checked,
+    this.selectedColor = Colors.blue,
+    this.unselectedColor = Colors.grey,
+    this.selected = false,
     this.onChanged,
     this.size = 22,
     this.transitionBuilder = _defaultTransitionBuilder,
     this.duration = const Duration(milliseconds: 100),
     this.reverseDuration,
-  });
-  final IconData selectedIconData;
-  final IconData unselectedIconData;
-  final Color activeColor;
-  final Color inactiveColor;
-  final bool value;
+    Key? key,
+  }) : super(key: key);
+
+  final IconData selectedIcon;
+  final IconData unselectedIcon;
+  final Color selectedColor;
+  final Color unselectedColor;
+  final bool selected;
   final double size;
   final ValueChanged<bool>? onChanged;
   final AnimatedSwitcherTransitionBuilder transitionBuilder;
   final Duration duration;
   final Duration? reverseDuration;
+
   @override
   _IconToggleState createState() => _IconToggleState();
 }
 
-class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateMixin {
+class _IconToggleState extends State<IconToggle>
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _position;
   bool _cancel = false;
@@ -44,13 +50,15 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: Duration(milliseconds: 100),
-      reverseDuration: Duration(milliseconds: 50),
+      duration: const Duration(milliseconds: 100),
+      reverseDuration: const Duration(milliseconds: 50),
     );
     _position = CurvedAnimation(parent: _controller, curve: Curves.linear);
-    _position.addStatusListener((status) {
-      if (status == AnimationStatus.dismissed && widget.onChanged != null && _cancel == false) {
-        widget.onChanged!(!widget.value);
+    _position.addStatusListener((AnimationStatus status) {
+      if (status == AnimationStatus.dismissed &&
+          widget.onChanged != null &&
+          _cancel == false) {
+        widget.onChanged!(!widget.selected);
       }
     });
   }
@@ -65,11 +73,11 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
-      onTapDown: (event) {
+      onTapDown: (TapDownDetails event) {
         _cancel = false;
         _controller.forward();
       },
-      onTapUp: (event) {
+      onTapUp: (TapUpDetails event) {
         _controller.reverse();
       },
       onTapCancel: () {
@@ -77,20 +85,22 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
         _controller.reverse();
       },
       child: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(10),
         child: _IconToggleable<double>(
           listenable: _position,
-          activeColor: widget.activeColor,
-          inactiveColor: widget.inactiveColor,
+          selectedColor: widget.selectedColor,
+          unselectedColor: widget.unselectedColor,
           child: AnimatedSwitcher(
             duration: widget.duration,
             reverseDuration: widget.reverseDuration,
             transitionBuilder: widget.transitionBuilder,
             child: Icon(
-              widget.value ? widget.selectedIconData : widget.unselectedIconData,
-              color: widget.value ? widget.activeColor : widget.inactiveColor,
+              widget.selected ? widget.selectedIcon : widget.unselectedIcon,
+              color: widget.selected
+                  ? widget.selectedColor
+                  : widget.unselectedColor,
               size: widget.size,
-              key: ValueKey<bool>(widget.value),
+              key: ValueKey<bool>(widget.selected),
             ),
           ),
         ),
@@ -102,20 +112,24 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
 class _IconToggleable<T> extends AnimatedWidget {
   _IconToggleable({
     required Animation<T> listenable,
-    this.activeColor,
-    this.inactiveColor,
+    this.selectedColor,
+    this.unselectedColor,
     this.child,
   }) : super(listenable: listenable);
-  final Color? activeColor;
-  final Color? inactiveColor;
+
+  // When IconToggle is selected, this icon color is displayed
+  final Color? selectedColor;
+
+  /// When IconToggle is not selected, this icon color is displayed
+  final Color? unselectedColor;
   final Widget? child;
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
       painter: _IconPainter(
         position: listenable as Animation<double>,
-        activeColor: activeColor,
-        inactiveColor: inactiveColor,
+        selectedColor: selectedColor,
+        unselectedColor: unselectedColor,
       ),
       child: child,
     );
@@ -125,22 +139,24 @@ class _IconToggleable<T> extends AnimatedWidget {
 class _IconPainter extends CustomPainter {
   _IconPainter({
     required this.position,
-    this.activeColor,
-    this.inactiveColor,
+    this.selectedColor,
+    this.unselectedColor,
   });
   final Animation<double> position;
-  final Color? activeColor;
-  final Color? inactiveColor;
+  final Color? selectedColor;
+  final Color? unselectedColor;
 
   double get _value => position.value;
 
   @override
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
-      ..color = Color.lerp(inactiveColor, activeColor, _value)!.withOpacity(math.min(_value, 0.15))
+      ..color = Color.lerp(unselectedColor, selectedColor, _value)!
+          .withOpacity(math.min(_value, 0.15))
       ..style = PaintingStyle.fill
       ..strokeWidth = 2.0;
-    canvas.drawCircle(Offset(size.width / 2, size.height / 2), 20 * _value, paint);
+    canvas.drawCircle(
+        Offset(size.width / 2, size.height / 2), 20 * _value, paint);
   }
 
   @override

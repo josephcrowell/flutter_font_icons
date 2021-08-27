@@ -1,3 +1,4 @@
+/// The main library that exports all the other library classes
 library flutter_font_icons;
 
 export 'flutter_font_icons.dart';

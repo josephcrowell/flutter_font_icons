@@ -1,6 +1,6 @@
 name: flutter_font_icons
-description: Customizable Icons for Flutter，including AntDesign, Entypo, EvilIcons, Feather, FontAwesome 4, FontAwesome 5, Fontisto, Foundation, Ionicons, MaterialCommunityIcons, MaterialIcons, Octicons, SimpleLineIcons, WeatherIcons and Zocial
-version: 2.2.2
+description: Vector Font Icons for Flutter，including all fonts from react-native-vector-icons and WeatherIcons.
+version: 2.2.3
 homepage: https://github.com/josephcrowell/flutter-font-icons
 
 environment:

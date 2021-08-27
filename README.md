@@ -42,11 +42,12 @@ To use this plugin, add `flutter_font_icons` as a [dependency in your pubspec.ya
 
 | Prop                 | Description                                                                                                                                                                               |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| selectedIconData  | Icon is displayed when value is true |
-| unselectedIconData | Icon is displayed when value is false |
-| activeColor | When value is true, the icon color is displayed |
-| inactiveColor | When value is false, the icon color is displayed |
-| value| Whether this IconToggle is selected. |
+| selectedIcon  | This icon is displayed when IconToggle is selected |
+| unselectedIcon | This icon is displayed when IconToggle is not selected |
+| selectedColor | When IconToggle is selected, this icon color is displayed |
+| unselectedColor | When IconToggle is not selected, this icon color is displayed |
+| selected| Whether this IconToggle is selected. |
+| size| The size of the icon. |
 | onChanged | Called when the value of the IconToggle should change. |
 | duration| The duration of the transition from selected Icon to unselected Icon |
 | reverseDuration | The duration of the transition from unselected Icon to selected Icon |
