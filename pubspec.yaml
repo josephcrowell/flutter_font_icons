@@ -1,7 +1,7 @@
 name: flutter_font_icons
 description: Vector Font Icons for Flutter，including all fonts from react-native-vector-icons and WeatherIcons.
 version: 2.2.3
-homepage: https://github.com/josephcrowell/flutter-font-icons
+homepage: https://github.com/josephcrowell/flutter_font_icons
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -21,57 +21,57 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   fonts:
-      - family: Ionicons
-        fonts:
-          - asset: fonts/Ionicons.ttf
-      - family: AntDesign
-        fonts:
-          - asset: fonts/AntDesign.ttf
-      - family: FontAwesome
-        fonts:
-          - asset: fonts/FontAwesome.ttf
-      - family: MaterialIcons
-        fonts:
-          - asset: fonts/MaterialIcons.ttf
-      - family: Entypo
-        fonts:
-          - asset: fonts/Entypo.ttf
-      - family: EvilIcons
-        fonts:
-          - asset: fonts/EvilIcons.ttf
-      - family: Feather
-        fonts:
-          - asset: fonts/Feather.ttf
-      - family: Foundation
-        fonts:
-          - asset: fonts/Foundation.ttf
-      - family: Fontisto
-        fonts:
-          - asset: fonts/Fontisto.ttf
-      - family: MaterialCommunityIcons
-        fonts:
-          - asset: fonts/MaterialCommunityIcons.ttf
-      - family: Octicons
-        fonts:
-          - asset: fonts/Octicons.ttf
-      - family: SimpleLineIcons
-        fonts:
-          - asset: fonts/SimpleLineIcons.ttf
-      - family: Zocial
-        fonts:
-          - asset: fonts/Zocial.ttf
-      - family: FontAwesome5
-        fonts:
-          - asset: fonts/FontAwesome5_Regular.ttf
-      - family: FontAwesome5_Brands
-        fonts:
-          - asset: fonts/FontAwesome5_Brands.ttf
-      - family: FontAwesome5_Solid
-        fonts:
-          - asset: fonts/FontAwesome5_Solid.ttf
-      - family: WeatherIcons
-        fonts:
-          - asset: fonts/weathericons.ttf
+    - family: Ionicons
+      fonts:
+        - asset: fonts/Ionicons.ttf
+    - family: AntDesign
+      fonts:
+        - asset: fonts/AntDesign.ttf
+    - family: FontAwesome
+      fonts:
+        - asset: fonts/FontAwesome.ttf
+    - family: MaterialIcons
+      fonts:
+        - asset: fonts/MaterialIcons.ttf
+    - family: Entypo
+      fonts:
+        - asset: fonts/Entypo.ttf
+    - family: EvilIcons
+      fonts:
+        - asset: fonts/EvilIcons.ttf
+    - family: Feather
+      fonts:
+        - asset: fonts/Feather.ttf
+    - family: Foundation
+      fonts:
+        - asset: fonts/Foundation.ttf
+    - family: Fontisto
+      fonts:
+        - asset: fonts/Fontisto.ttf
+    - family: MaterialCommunityIcons
+      fonts:
+        - asset: fonts/MaterialCommunityIcons.ttf
+    - family: Octicons
+      fonts:
+        - asset: fonts/Octicons.ttf
+    - family: SimpleLineIcons
+      fonts:
+        - asset: fonts/SimpleLineIcons.ttf
+    - family: Zocial
+      fonts:
+        - asset: fonts/Zocial.ttf
+    - family: FontAwesome5
+      fonts:
+        - asset: fonts/FontAwesome5_Regular.ttf
+    - family: FontAwesome5_Brands
+      fonts:
+        - asset: fonts/FontAwesome5_Brands.ttf
+    - family: FontAwesome5_Solid
+      fonts:
+        - asset: fonts/FontAwesome5_Solid.ttf
+    - family: WeatherIcons
+      fonts:
+        - asset: fonts/weathericons.ttf
 
   # To add assets to your package, add an assets section, like this:
   # assets:

@@ -1,15 +1,15 @@
 ---
 name: Feature request
-about: Suggest a new idea for flutter-font-icons.
+about: Suggest a new idea for flutter_font_icons.
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-<!-- Thank you for using flutter-font-icons!
+<!-- Thank you for using flutter_font_icons!
 
-    If you have some new ideas on flutter-font-icons,
+    If you have some new ideas on flutter_font_icons,
     please submit an issue according to the following steps. We will reply to you immediately
 -->
 
