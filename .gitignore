@@ -37,6 +37,9 @@ lib/generated_plugin_registrant.dart
 /windows/flutter/generated_plugin_registrant.h
 /windows/flutter/generated_plugins.cmake
 /windows/flutter/generated_plugin_registrant.cc
+example/windows/flutter/generated_plugin_registrant.h
+example/windows/flutter/generated_plugins.cmake
+example/windows/flutter/generated_plugin_registrant.cc
 
 # Symbolication related
 app.*.symbols
