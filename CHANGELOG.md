@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.4
+
+* Version update to trigger pub.dev loading url change
+
 ## 2.2.3
 
 * Update IconToggle widget with more sane properties and add comments to assist dartdoc
