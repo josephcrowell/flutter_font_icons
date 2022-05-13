@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.5
+
+* Dependency upgrade
+
 ## 2.2.4
 
 * Version update to trigger pub.dev loading url change
