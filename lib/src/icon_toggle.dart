@@ -1,8 +1,10 @@
+// cSpell:disable
+
 import 'dart:math' as math;
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) =>
-    ScaleTransition(
+Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => ScaleTransition(
       scale: animation,
       child: child,
     );
@@ -24,23 +26,55 @@ class IconToggle extends StatefulWidget {
     Key? key,
   }) : super(key: key);
 
+  /// The icon to show when selected
   final IconData selectedIcon;
+
+  /// The icon to show when unselected
   final IconData unselectedIcon;
+
+  /// The color to use when selected
   final Color selectedColor;
+
+  /// The icon to show when unselected
   final Color unselectedColor;
+
+  /// Is the icon selected?
   final bool selected;
+
+  /// The icon size
   final double size;
+
+  /// Callback when the icon toggle is changed
   final ValueChanged<bool>? onChanged;
+
+  /// A transition animation to show when the icon is changing
   final AnimatedSwitcherTransitionBuilder transitionBuilder;
+
+  /// The duration of the transition animation
   final Duration duration;
+
+  /// The duration of the transition animation when reversing
   final Duration? reverseDuration;
 
   @override
-  _IconToggleState createState() => _IconToggleState();
+  State<IconToggle> createState() => _IconToggleState();
+  @override
+  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
+    super.debugFillProperties(properties);
+    properties.add(DiagnosticsProperty<IconData>('selectedIcon', selectedIcon));
+    properties.add(DiagnosticsProperty<IconData>('unselectedIcon', unselectedIcon));
+    properties.add(ColorProperty('selectedColor', selectedColor));
+    properties.add(ColorProperty('unselectedColor', unselectedColor));
+    properties.add(DiagnosticsProperty<bool>('selected', selected));
+    properties.add(DoubleProperty('size', size));
+    properties.add(ObjectFlagProperty<ValueChanged<bool>?>.has('onChanged', onChanged));
+    properties.add(ObjectFlagProperty<AnimatedSwitcherTransitionBuilder>.has('transitionBuilder', transitionBuilder));
+    properties.add(DiagnosticsProperty<Duration>('duration', duration));
+    properties.add(DiagnosticsProperty<Duration?>('reverseDuration', reverseDuration));
+  }
 }
 
-class _IconToggleState extends State<IconToggle>
-    with SingleTickerProviderStateMixin {
+class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _position;
   bool _cancel = false;
@@ -55,9 +89,7 @@ class _IconToggleState extends State<IconToggle>
     );
     _position = CurvedAnimation(parent: _controller, curve: Curves.linear);
     _position.addStatusListener((AnimationStatus status) {
-      if (status == AnimationStatus.dismissed &&
-          widget.onChanged != null &&
-          _cancel == false) {
+      if (status == AnimationStatus.dismissed && widget.onChanged != null && _cancel == false) {
         widget.onChanged!(!widget.selected);
       }
     });
@@ -96,9 +128,7 @@ class _IconToggleState extends State<IconToggle>
             transitionBuilder: widget.transitionBuilder,
             child: Icon(
               widget.selected ? widget.selectedIcon : widget.unselectedIcon,
-              color: widget.selected
-                  ? widget.selectedColor
-                  : widget.unselectedColor,
+              color: widget.selected ? widget.selectedColor : widget.unselectedColor,
               size: widget.size,
               key: ValueKey<bool>(widget.selected),
             ),
@@ -134,6 +164,13 @@ class _IconToggleable<T> extends AnimatedWidget {
       child: child,
     );
   }
+
+  @override
+  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
+    super.debugFillProperties(properties);
+    properties.add(ColorProperty('selectedColor', selectedColor));
+    properties.add(ColorProperty('unselectedColor', unselectedColor));
+  }
 }
 
 class _IconPainter extends CustomPainter {
@@ -151,12 +188,10 @@ class _IconPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
-      ..color = Color.lerp(unselectedColor, selectedColor, _value)!
-          .withOpacity(math.min(_value, 0.15))
+      ..color = Color.lerp(unselectedColor, selectedColor, _value)!.withOpacity(math.min(_value, 0.15))
       ..style = PaintingStyle.fill
       ..strokeWidth = 2.0;
-    canvas.drawCircle(
-        Offset(size.width / 2, size.height / 2), 20 * _value, paint);
+    canvas.drawCircle(Offset(size.width / 2, size.height / 2), 20 * _value, paint);
   }
 
   @override

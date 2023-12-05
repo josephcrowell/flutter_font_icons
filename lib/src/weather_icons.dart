@@ -1,3 +1,5 @@
+// cSpell:disable
+
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
@@ -9,10 +11,8 @@ class WeatherIcons {
 
   static const IconData wi_day_sunny = FlutterIconData.weatherIcons(61453);
   static const IconData wi_day_cloudy = FlutterIconData.weatherIcons(61442);
-  static const IconData wi_day_cloudy_gusts =
-      FlutterIconData.weatherIcons(61440);
-  static const IconData wi_day_cloudy_windy =
-      FlutterIconData.weatherIcons(61441);
+  static const IconData wi_day_cloudy_gusts = FlutterIconData.weatherIcons(61440);
+  static const IconData wi_day_cloudy_windy = FlutterIconData.weatherIcons(61441);
   static const IconData wi_day_fog = FlutterIconData.weatherIcons(61443);
   static const IconData wi_day_hail = FlutterIconData.weatherIcons(61444);
   static const IconData wi_day_haze = FlutterIconData.weatherIcons(61622);
@@ -22,96 +22,63 @@ class WeatherIcons {
   static const IconData wi_day_rain_wind = FlutterIconData.weatherIcons(61447);
   static const IconData wi_day_showers = FlutterIconData.weatherIcons(61449);
   static const IconData wi_day_sleet = FlutterIconData.weatherIcons(61618);
-  static const IconData wi_day_sleet_storm =
-      FlutterIconData.weatherIcons(61544);
+  static const IconData wi_day_sleet_storm = FlutterIconData.weatherIcons(61544);
   static const IconData wi_day_snow = FlutterIconData.weatherIcons(61450);
-  static const IconData wi_day_snow_thunderstorm =
-      FlutterIconData.weatherIcons(61547);
+  static const IconData wi_day_snow_thunderstorm = FlutterIconData.weatherIcons(61547);
   static const IconData wi_day_snow_wind = FlutterIconData.weatherIcons(61541);
   static const IconData wi_day_sprinkle = FlutterIconData.weatherIcons(61451);
-  static const IconData wi_day_storm_showers =
-      FlutterIconData.weatherIcons(61454);
-  static const IconData wi_day_sunny_overcast =
-      FlutterIconData.weatherIcons(61452);
-  static const IconData wi_day_thunderstorm =
-      FlutterIconData.weatherIcons(61456);
+  static const IconData wi_day_storm_showers = FlutterIconData.weatherIcons(61454);
+  static const IconData wi_day_sunny_overcast = FlutterIconData.weatherIcons(61452);
+  static const IconData wi_day_thunderstorm = FlutterIconData.weatherIcons(61456);
   static const IconData wi_day_windy = FlutterIconData.weatherIcons(61573);
   static const IconData wi_solar_eclipse = FlutterIconData.weatherIcons(61550);
   static const IconData wi_hot = FlutterIconData.weatherIcons(61554);
-  static const IconData wi_day_cloudy_high =
-      FlutterIconData.weatherIcons(61565);
+  static const IconData wi_day_cloudy_high = FlutterIconData.weatherIcons(61565);
   static const IconData wi_day_light_wind = FlutterIconData.weatherIcons(61636);
   static const IconData wi_night_clear = FlutterIconData.weatherIcons(61486);
-  static const IconData wi_night_alt_cloudy =
-      FlutterIconData.weatherIcons(61574);
-  static const IconData wi_night_alt_cloudy_gusts =
-      FlutterIconData.weatherIcons(61474);
-  static const IconData wi_night_alt_cloudy_windy =
-      FlutterIconData.weatherIcons(61475);
+  static const IconData wi_night_alt_cloudy = FlutterIconData.weatherIcons(61574);
+  static const IconData wi_night_alt_cloudy_gusts = FlutterIconData.weatherIcons(61474);
+  static const IconData wi_night_alt_cloudy_windy = FlutterIconData.weatherIcons(61475);
   static const IconData wi_night_alt_hail = FlutterIconData.weatherIcons(61476);
-  static const IconData wi_night_alt_lightning =
-      FlutterIconData.weatherIcons(61477);
+  static const IconData wi_night_alt_lightning = FlutterIconData.weatherIcons(61477);
   static const IconData wi_night_alt_rain = FlutterIconData.weatherIcons(61480);
-  static const IconData wi_night_alt_rain_mix =
-      FlutterIconData.weatherIcons(61478);
-  static const IconData wi_night_alt_rain_wind =
-      FlutterIconData.weatherIcons(61479);
-  static const IconData wi_night_alt_showers =
-      FlutterIconData.weatherIcons(61481);
-  static const IconData wi_night_alt_sleet =
-      FlutterIconData.weatherIcons(61620);
-  static const IconData wi_night_alt_sleet_storm =
-      FlutterIconData.weatherIcons(61546);
+  static const IconData wi_night_alt_rain_mix = FlutterIconData.weatherIcons(61478);
+  static const IconData wi_night_alt_rain_wind = FlutterIconData.weatherIcons(61479);
+  static const IconData wi_night_alt_showers = FlutterIconData.weatherIcons(61481);
+  static const IconData wi_night_alt_sleet = FlutterIconData.weatherIcons(61620);
+  static const IconData wi_night_alt_sleet_storm = FlutterIconData.weatherIcons(61546);
   static const IconData wi_night_alt_snow = FlutterIconData.weatherIcons(61482);
-  static const IconData wi_night_alt_snow_thunderstorm =
-      FlutterIconData.weatherIcons(61549);
-  static const IconData wi_night_alt_snow_wind =
-      FlutterIconData.weatherIcons(61543);
-  static const IconData wi_night_alt_sprinkle =
-      FlutterIconData.weatherIcons(61483);
-  static const IconData wi_night_alt_storm_showers =
-      FlutterIconData.weatherIcons(61484);
-  static const IconData wi_night_alt_thunderstorm =
-      FlutterIconData.weatherIcons(61485);
+  static const IconData wi_night_alt_snow_thunderstorm = FlutterIconData.weatherIcons(61549);
+  static const IconData wi_night_alt_snow_wind = FlutterIconData.weatherIcons(61543);
+  static const IconData wi_night_alt_sprinkle = FlutterIconData.weatherIcons(61483);
+  static const IconData wi_night_alt_storm_showers = FlutterIconData.weatherIcons(61484);
+  static const IconData wi_night_alt_thunderstorm = FlutterIconData.weatherIcons(61485);
   static const IconData wi_night_cloudy = FlutterIconData.weatherIcons(61489);
-  static const IconData wi_night_cloudy_gusts =
-      FlutterIconData.weatherIcons(61487);
-  static const IconData wi_night_cloudy_windy =
-      FlutterIconData.weatherIcons(61488);
+  static const IconData wi_night_cloudy_gusts = FlutterIconData.weatherIcons(61487);
+  static const IconData wi_night_cloudy_windy = FlutterIconData.weatherIcons(61488);
   static const IconData wi_night_fog = FlutterIconData.weatherIcons(61514);
   static const IconData wi_night_hail = FlutterIconData.weatherIcons(61490);
-  static const IconData wi_night_lightning =
-      FlutterIconData.weatherIcons(61491);
-  static const IconData wi_night_partly_cloudy =
-      FlutterIconData.weatherIcons(61571);
+  static const IconData wi_night_lightning = FlutterIconData.weatherIcons(61491);
+  static const IconData wi_night_partly_cloudy = FlutterIconData.weatherIcons(61571);
   static const IconData wi_night_rain = FlutterIconData.weatherIcons(61494);
   static const IconData wi_night_rain_mix = FlutterIconData.weatherIcons(61492);
-  static const IconData wi_night_rain_wind =
-      FlutterIconData.weatherIcons(61493);
+  static const IconData wi_night_rain_wind = FlutterIconData.weatherIcons(61493);
   static const IconData wi_night_showers = FlutterIconData.weatherIcons(61495);
   static const IconData wi_night_sleet = FlutterIconData.weatherIcons(61619);
-  static const IconData wi_night_sleet_storm =
-      FlutterIconData.weatherIcons(61545);
+  static const IconData wi_night_sleet_storm = FlutterIconData.weatherIcons(61545);
   static const IconData wi_night_snow = FlutterIconData.weatherIcons(61496);
-  static const IconData wi_night_snow_thunderstorm =
-      FlutterIconData.weatherIcons(61548);
-  static const IconData wi_night_snow_wind =
-      FlutterIconData.weatherIcons(61542);
+  static const IconData wi_night_snow_thunderstorm = FlutterIconData.weatherIcons(61548);
+  static const IconData wi_night_snow_wind = FlutterIconData.weatherIcons(61542);
   static const IconData wi_night_sprinkle = FlutterIconData.weatherIcons(61497);
-  static const IconData wi_night_storm_showers =
-      FlutterIconData.weatherIcons(61498);
-  static const IconData wi_night_thunderstorm =
-      FlutterIconData.weatherIcons(61499);
+  static const IconData wi_night_storm_showers = FlutterIconData.weatherIcons(61498);
+  static const IconData wi_night_thunderstorm = FlutterIconData.weatherIcons(61499);
   static const IconData wi_lunar_eclipse = FlutterIconData.weatherIcons(61552);
   static const IconData wi_stars = FlutterIconData.weatherIcons(61559);
   static const IconData wi_storm_showers = FlutterIconData.weatherIcons(61469);
   static const IconData wi_thunderstorm = FlutterIconData.weatherIcons(61470);
-  static const IconData wi_night_alt_cloudy_high =
-      FlutterIconData.weatherIcons(61566);
-  static const IconData wi_night_cloudy_high =
-      FlutterIconData.weatherIcons(61568);
-  static const IconData wi_night_alt_partly_cloudy =
-      FlutterIconData.weatherIcons(61569);
+  static const IconData wi_night_alt_cloudy_high = FlutterIconData.weatherIcons(61566);
+  static const IconData wi_night_cloudy_high = FlutterIconData.weatherIcons(61568);
+  static const IconData wi_night_alt_partly_cloudy = FlutterIconData.weatherIcons(61569);
   static const IconData wi_cloud = FlutterIconData.weatherIcons(61505);
   static const IconData wi_cloudy = FlutterIconData.weatherIcons(61459);
   static const IconData wi_cloudy_gusts = FlutterIconData.weatherIcons(61457);
@@ -144,22 +111,18 @@ class WeatherIcons {
   static const IconData wi_volcano = FlutterIconData.weatherIcons(61640);
   static const IconData wi_hurricane = FlutterIconData.weatherIcons(61555);
   static const IconData wi_tornado = FlutterIconData.weatherIcons(61526);
-  static const IconData wi_small_craft_advisory =
-      FlutterIconData.weatherIcons(61644);
+  static const IconData wi_small_craft_advisory = FlutterIconData.weatherIcons(61644);
   static const IconData wi_gale_warning = FlutterIconData.weatherIcons(61645);
   static const IconData wi_storm_warning = FlutterIconData.weatherIcons(61646);
-  static const IconData wi_hurricane_warning =
-      FlutterIconData.weatherIcons(61647);
+  static const IconData wi_hurricane_warning = FlutterIconData.weatherIcons(61647);
   static const IconData wi_wind_direction = FlutterIconData.weatherIcons(61617);
   static const IconData wi_alien = FlutterIconData.weatherIcons(61557);
   static const IconData wi_celsius = FlutterIconData.weatherIcons(61500);
   static const IconData wi_fahrenheit = FlutterIconData.weatherIcons(61509);
   static const IconData wi_degrees = FlutterIconData.weatherIcons(61506);
   static const IconData wi_thermometer = FlutterIconData.weatherIcons(61525);
-  static const IconData wi_thermometer_exterior =
-      FlutterIconData.weatherIcons(61523);
-  static const IconData wi_thermometer_internal =
-      FlutterIconData.weatherIcons(61524);
+  static const IconData wi_thermometer_exterior = FlutterIconData.weatherIcons(61523);
+  static const IconData wi_thermometer_internal = FlutterIconData.weatherIcons(61524);
   static const IconData wi_cloud_down = FlutterIconData.weatherIcons(61501);
   static const IconData wi_cloud_up = FlutterIconData.weatherIcons(61504);
   static const IconData wi_cloud_refresh = FlutterIconData.weatherIcons(61502);
@@ -177,113 +140,61 @@ class WeatherIcons {
   static const IconData wi_na = FlutterIconData.weatherIcons(61563);
   static const IconData wi_train = FlutterIconData.weatherIcons(61643);
   static const IconData wi_moon_new = FlutterIconData.weatherIcons(61589);
-  static const IconData wi_moon_waxing_crescent_1 =
-      FlutterIconData.weatherIcons(61590);
-  static const IconData wi_moon_waxing_crescent_2 =
-      FlutterIconData.weatherIcons(61591);
-  static const IconData wi_moon_waxing_crescent_3 =
-      FlutterIconData.weatherIcons(61592);
-  static const IconData wi_moon_waxing_crescent_4 =
-      FlutterIconData.weatherIcons(61593);
-  static const IconData wi_moon_waxing_crescent_5 =
-      FlutterIconData.weatherIcons(61594);
-  static const IconData wi_moon_waxing_crescent_6 =
-      FlutterIconData.weatherIcons(61595);
-  static const IconData wi_moon_first_quarter =
-      FlutterIconData.weatherIcons(61596);
-  static const IconData wi_moon_waxing_gibbous_1 =
-      FlutterIconData.weatherIcons(61597);
-  static const IconData wi_moon_waxing_gibbous_2 =
-      FlutterIconData.weatherIcons(61598);
-  static const IconData wi_moon_waxing_gibbous_3 =
-      FlutterIconData.weatherIcons(61599);
-  static const IconData wi_moon_waxing_gibbous_4 =
-      FlutterIconData.weatherIcons(61600);
-  static const IconData wi_moon_waxing_gibbous_5 =
-      FlutterIconData.weatherIcons(61601);
-  static const IconData wi_moon_waxing_gibbous_6 =
-      FlutterIconData.weatherIcons(61602);
+  static const IconData wi_moon_waxing_crescent_1 = FlutterIconData.weatherIcons(61590);
+  static const IconData wi_moon_waxing_crescent_2 = FlutterIconData.weatherIcons(61591);
+  static const IconData wi_moon_waxing_crescent_3 = FlutterIconData.weatherIcons(61592);
+  static const IconData wi_moon_waxing_crescent_4 = FlutterIconData.weatherIcons(61593);
+  static const IconData wi_moon_waxing_crescent_5 = FlutterIconData.weatherIcons(61594);
+  static const IconData wi_moon_waxing_crescent_6 = FlutterIconData.weatherIcons(61595);
+  static const IconData wi_moon_first_quarter = FlutterIconData.weatherIcons(61596);
+  static const IconData wi_moon_waxing_gibbous_1 = FlutterIconData.weatherIcons(61597);
+  static const IconData wi_moon_waxing_gibbous_2 = FlutterIconData.weatherIcons(61598);
+  static const IconData wi_moon_waxing_gibbous_3 = FlutterIconData.weatherIcons(61599);
+  static const IconData wi_moon_waxing_gibbous_4 = FlutterIconData.weatherIcons(61600);
+  static const IconData wi_moon_waxing_gibbous_5 = FlutterIconData.weatherIcons(61601);
+  static const IconData wi_moon_waxing_gibbous_6 = FlutterIconData.weatherIcons(61602);
   static const IconData wi_moon_full = FlutterIconData.weatherIcons(61603);
-  static const IconData wi_moon_waning_gibbous_1 =
-      FlutterIconData.weatherIcons(61604);
-  static const IconData wi_moon_waning_gibbous_2 =
-      FlutterIconData.weatherIcons(61605);
-  static const IconData wi_moon_waning_gibbous_3 =
-      FlutterIconData.weatherIcons(61606);
-  static const IconData wi_moon_waning_gibbous_4 =
-      FlutterIconData.weatherIcons(61607);
-  static const IconData wi_moon_waning_gibbous_5 =
-      FlutterIconData.weatherIcons(61608);
-  static const IconData wi_moon_waning_gibbous_6 =
-      FlutterIconData.weatherIcons(61609);
-  static const IconData wi_moon_third_quarter =
-      FlutterIconData.weatherIcons(61610);
-  static const IconData wi_moon_waning_crescent_1 =
-      FlutterIconData.weatherIcons(61611);
-  static const IconData wi_moon_waning_crescent_2 =
-      FlutterIconData.weatherIcons(61612);
-  static const IconData wi_moon_waning_crescent_3 =
-      FlutterIconData.weatherIcons(61613);
-  static const IconData wi_moon_waning_crescent_4 =
-      FlutterIconData.weatherIcons(61614);
-  static const IconData wi_moon_waning_crescent_5 =
-      FlutterIconData.weatherIcons(61615);
-  static const IconData wi_moon_waning_crescent_6 =
-      FlutterIconData.weatherIcons(61616);
+  static const IconData wi_moon_waning_gibbous_1 = FlutterIconData.weatherIcons(61604);
+  static const IconData wi_moon_waning_gibbous_2 = FlutterIconData.weatherIcons(61605);
+  static const IconData wi_moon_waning_gibbous_3 = FlutterIconData.weatherIcons(61606);
+  static const IconData wi_moon_waning_gibbous_4 = FlutterIconData.weatherIcons(61607);
+  static const IconData wi_moon_waning_gibbous_5 = FlutterIconData.weatherIcons(61608);
+  static const IconData wi_moon_waning_gibbous_6 = FlutterIconData.weatherIcons(61609);
+  static const IconData wi_moon_third_quarter = FlutterIconData.weatherIcons(61610);
+  static const IconData wi_moon_waning_crescent_1 = FlutterIconData.weatherIcons(61611);
+  static const IconData wi_moon_waning_crescent_2 = FlutterIconData.weatherIcons(61612);
+  static const IconData wi_moon_waning_crescent_3 = FlutterIconData.weatherIcons(61613);
+  static const IconData wi_moon_waning_crescent_4 = FlutterIconData.weatherIcons(61614);
+  static const IconData wi_moon_waning_crescent_5 = FlutterIconData.weatherIcons(61615);
+  static const IconData wi_moon_waning_crescent_6 = FlutterIconData.weatherIcons(61616);
   static const IconData wi_moon_alt_new = FlutterIconData.weatherIcons(61675);
-  static const IconData wi_moon_alt_waxing_crescent_1 =
-      FlutterIconData.weatherIcons(61648);
-  static const IconData wi_moon_alt_waxing_crescent_2 =
-      FlutterIconData.weatherIcons(61649);
-  static const IconData wi_moon_alt_waxing_crescent_3 =
-      FlutterIconData.weatherIcons(61650);
-  static const IconData wi_moon_alt_waxing_crescent_4 =
-      FlutterIconData.weatherIcons(61651);
-  static const IconData wi_moon_alt_waxing_crescent_5 =
-      FlutterIconData.weatherIcons(61652);
-  static const IconData wi_moon_alt_waxing_crescent_6 =
-      FlutterIconData.weatherIcons(61653);
-  static const IconData wi_moon_alt_first_quarter =
-      FlutterIconData.weatherIcons(61654);
-  static const IconData wi_moon_alt_waxing_gibbous_1 =
-      FlutterIconData.weatherIcons(61655);
-  static const IconData wi_moon_alt_waxing_gibbous_2 =
-      FlutterIconData.weatherIcons(61656);
-  static const IconData wi_moon_alt_waxing_gibbous_3 =
-      FlutterIconData.weatherIcons(61657);
-  static const IconData wi_moon_alt_waxing_gibbous_4 =
-      FlutterIconData.weatherIcons(61658);
-  static const IconData wi_moon_alt_waxing_gibbous_5 =
-      FlutterIconData.weatherIcons(61659);
-  static const IconData wi_moon_alt_waxing_gibbous_6 =
-      FlutterIconData.weatherIcons(61660);
+  static const IconData wi_moon_alt_waxing_crescent_1 = FlutterIconData.weatherIcons(61648);
+  static const IconData wi_moon_alt_waxing_crescent_2 = FlutterIconData.weatherIcons(61649);
+  static const IconData wi_moon_alt_waxing_crescent_3 = FlutterIconData.weatherIcons(61650);
+  static const IconData wi_moon_alt_waxing_crescent_4 = FlutterIconData.weatherIcons(61651);
+  static const IconData wi_moon_alt_waxing_crescent_5 = FlutterIconData.weatherIcons(61652);
+  static const IconData wi_moon_alt_waxing_crescent_6 = FlutterIconData.weatherIcons(61653);
+  static const IconData wi_moon_alt_first_quarter = FlutterIconData.weatherIcons(61654);
+  static const IconData wi_moon_alt_waxing_gibbous_1 = FlutterIconData.weatherIcons(61655);
+  static const IconData wi_moon_alt_waxing_gibbous_2 = FlutterIconData.weatherIcons(61656);
+  static const IconData wi_moon_alt_waxing_gibbous_3 = FlutterIconData.weatherIcons(61657);
+  static const IconData wi_moon_alt_waxing_gibbous_4 = FlutterIconData.weatherIcons(61658);
+  static const IconData wi_moon_alt_waxing_gibbous_5 = FlutterIconData.weatherIcons(61659);
+  static const IconData wi_moon_alt_waxing_gibbous_6 = FlutterIconData.weatherIcons(61660);
   static const IconData wi_moon_alt_full = FlutterIconData.weatherIcons(61661);
-  static const IconData wi_moon_alt_waning_gibbous_1 =
-      FlutterIconData.weatherIcons(61662);
-  static const IconData wi_moon_alt_waning_gibbous_2 =
-      FlutterIconData.weatherIcons(61663);
-  static const IconData wi_moon_alt_waning_gibbous_3 =
-      FlutterIconData.weatherIcons(61664);
-  static const IconData wi_moon_alt_waning_gibbous_4 =
-      FlutterIconData.weatherIcons(61665);
-  static const IconData wi_moon_alt_waning_gibbous_5 =
-      FlutterIconData.weatherIcons(61666);
-  static const IconData wi_moon_alt_waning_gibbous_6 =
-      FlutterIconData.weatherIcons(61667);
-  static const IconData wi_moon_alt_third_quarter =
-      FlutterIconData.weatherIcons(61668);
-  static const IconData wi_moon_alt_waning_crescent_1 =
-      FlutterIconData.weatherIcons(61669);
-  static const IconData wi_moon_alt_waning_crescent_2 =
-      FlutterIconData.weatherIcons(61670);
-  static const IconData wi_moon_alt_waning_crescent_3 =
-      FlutterIconData.weatherIcons(61671);
-  static const IconData wi_moon_alt_waning_crescent_4 =
-      FlutterIconData.weatherIcons(61672);
-  static const IconData wi_moon_alt_waning_crescent_5 =
-      FlutterIconData.weatherIcons(61673);
-  static const IconData wi_moon_alt_waning_crescent_6 =
-      FlutterIconData.weatherIcons(61674);
+  static const IconData wi_moon_alt_waning_gibbous_1 = FlutterIconData.weatherIcons(61662);
+  static const IconData wi_moon_alt_waning_gibbous_2 = FlutterIconData.weatherIcons(61663);
+  static const IconData wi_moon_alt_waning_gibbous_3 = FlutterIconData.weatherIcons(61664);
+  static const IconData wi_moon_alt_waning_gibbous_4 = FlutterIconData.weatherIcons(61665);
+  static const IconData wi_moon_alt_waning_gibbous_5 = FlutterIconData.weatherIcons(61666);
+  static const IconData wi_moon_alt_waning_gibbous_6 = FlutterIconData.weatherIcons(61667);
+  static const IconData wi_moon_alt_third_quarter = FlutterIconData.weatherIcons(61668);
+  static const IconData wi_moon_alt_waning_crescent_1 = FlutterIconData.weatherIcons(61669);
+  static const IconData wi_moon_alt_waning_crescent_2 = FlutterIconData.weatherIcons(61670);
+  static const IconData wi_moon_alt_waning_crescent_3 = FlutterIconData.weatherIcons(61671);
+  static const IconData wi_moon_alt_waning_crescent_4 = FlutterIconData.weatherIcons(61672);
+  static const IconData wi_moon_alt_waning_crescent_5 = FlutterIconData.weatherIcons(61673);
+  static const IconData wi_moon_alt_waning_crescent_6 = FlutterIconData.weatherIcons(61674);
   static const IconData wi_moon_0 = FlutterIconData.weatherIcons(61589);
   static const IconData wi_moon_1 = FlutterIconData.weatherIcons(61590);
   static const IconData wi_moon_2 = FlutterIconData.weatherIcons(61591);
@@ -325,44 +236,26 @@ class WeatherIcons {
   static const IconData wi_time_11 = FlutterIconData.weatherIcons(61588);
   static const IconData wi_time_12 = FlutterIconData.weatherIcons(61577);
   static const IconData wi_direction_up = FlutterIconData.weatherIcons(61528);
-  static const IconData wi_direction_up_right =
-      FlutterIconData.weatherIcons(61527);
-  static const IconData wi_direction_right =
-      FlutterIconData.weatherIcons(61517);
-  static const IconData wi_direction_down_right =
-      FlutterIconData.weatherIcons(61576);
+  static const IconData wi_direction_up_right = FlutterIconData.weatherIcons(61527);
+  static const IconData wi_direction_right = FlutterIconData.weatherIcons(61517);
+  static const IconData wi_direction_down_right = FlutterIconData.weatherIcons(61576);
   static const IconData wi_direction_down = FlutterIconData.weatherIcons(61508);
-  static const IconData wi_direction_down_left =
-      FlutterIconData.weatherIcons(61507);
+  static const IconData wi_direction_down_left = FlutterIconData.weatherIcons(61507);
   static const IconData wi_direction_left = FlutterIconData.weatherIcons(61512);
-  static const IconData wi_direction_up_left =
-      FlutterIconData.weatherIcons(61575);
-  static const IconData wi_wind_beaufort_0 =
-      FlutterIconData.weatherIcons(61623);
-  static const IconData wi_wind_beaufort_1 =
-      FlutterIconData.weatherIcons(61624);
-  static const IconData wi_wind_beaufort_2 =
-      FlutterIconData.weatherIcons(61625);
-  static const IconData wi_wind_beaufort_3 =
-      FlutterIconData.weatherIcons(61626);
-  static const IconData wi_wind_beaufort_4 =
-      FlutterIconData.weatherIcons(61627);
-  static const IconData wi_wind_beaufort_5 =
-      FlutterIconData.weatherIcons(61628);
-  static const IconData wi_wind_beaufort_6 =
-      FlutterIconData.weatherIcons(61629);
-  static const IconData wi_wind_beaufort_7 =
-      FlutterIconData.weatherIcons(61630);
-  static const IconData wi_wind_beaufort_8 =
-      FlutterIconData.weatherIcons(61631);
-  static const IconData wi_wind_beaufort_9 =
-      FlutterIconData.weatherIcons(61632);
-  static const IconData wi_wind_beaufort_10 =
-      FlutterIconData.weatherIcons(61633);
-  static const IconData wi_wind_beaufort_11 =
-      FlutterIconData.weatherIcons(61634);
-  static const IconData wi_wind_beaufort_12 =
-      FlutterIconData.weatherIcons(61635);
+  static const IconData wi_direction_up_left = FlutterIconData.weatherIcons(61575);
+  static const IconData wi_wind_beaufort_0 = FlutterIconData.weatherIcons(61623);
+  static const IconData wi_wind_beaufort_1 = FlutterIconData.weatherIcons(61624);
+  static const IconData wi_wind_beaufort_2 = FlutterIconData.weatherIcons(61625);
+  static const IconData wi_wind_beaufort_3 = FlutterIconData.weatherIcons(61626);
+  static const IconData wi_wind_beaufort_4 = FlutterIconData.weatherIcons(61627);
+  static const IconData wi_wind_beaufort_5 = FlutterIconData.weatherIcons(61628);
+  static const IconData wi_wind_beaufort_6 = FlutterIconData.weatherIcons(61629);
+  static const IconData wi_wind_beaufort_7 = FlutterIconData.weatherIcons(61630);
+  static const IconData wi_wind_beaufort_8 = FlutterIconData.weatherIcons(61631);
+  static const IconData wi_wind_beaufort_9 = FlutterIconData.weatherIcons(61632);
+  static const IconData wi_wind_beaufort_10 = FlutterIconData.weatherIcons(61633);
+  static const IconData wi_wind_beaufort_11 = FlutterIconData.weatherIcons(61634);
+  static const IconData wi_wind_beaufort_12 = FlutterIconData.weatherIcons(61635);
   static const IconData wi_yahoo_0 = FlutterIconData.weatherIcons(61526);
   static const IconData wi_yahoo_1 = FlutterIconData.weatherIcons(61454);
   static const IconData wi_yahoo_2 = FlutterIconData.weatherIcons(61555);
@@ -412,32 +305,19 @@ class WeatherIcons {
   static const IconData wi_yahoo_46 = FlutterIconData.weatherIcons(61467);
   static const IconData wi_yahoo_47 = FlutterIconData.weatherIcons(61454);
   static const IconData wi_yahoo_3200 = FlutterIconData.weatherIcons(61559);
-  static const IconData wi_forecast_io_clear_day =
-      FlutterIconData.weatherIcons(61453);
-  static const IconData wi_forecast_io_clear_night =
-      FlutterIconData.weatherIcons(61486);
-  static const IconData wi_forecast_io_rain =
-      FlutterIconData.weatherIcons(61465);
-  static const IconData wi_forecast_io_snow =
-      FlutterIconData.weatherIcons(61467);
-  static const IconData wi_forecast_io_sleet =
-      FlutterIconData.weatherIcons(61621);
-  static const IconData wi_forecast_io_wind =
-      FlutterIconData.weatherIcons(61520);
-  static const IconData wi_forecast_io_fog =
-      FlutterIconData.weatherIcons(61460);
-  static const IconData wi_forecast_io_cloudy =
-      FlutterIconData.weatherIcons(61459);
-  static const IconData wi_forecast_io_partly_cloudy_day =
-      FlutterIconData.weatherIcons(61442);
-  static const IconData wi_forecast_io_partly_cloudy_night =
-      FlutterIconData.weatherIcons(61489);
-  static const IconData wi_forecast_io_hail =
-      FlutterIconData.weatherIcons(61461);
-  static const IconData wi_forecast_io_thunderstorm =
-      FlutterIconData.weatherIcons(61470);
-  static const IconData wi_forecast_io_tornado =
-      FlutterIconData.weatherIcons(61526);
+  static const IconData wi_forecast_io_clear_day = FlutterIconData.weatherIcons(61453);
+  static const IconData wi_forecast_io_clear_night = FlutterIconData.weatherIcons(61486);
+  static const IconData wi_forecast_io_rain = FlutterIconData.weatherIcons(61465);
+  static const IconData wi_forecast_io_snow = FlutterIconData.weatherIcons(61467);
+  static const IconData wi_forecast_io_sleet = FlutterIconData.weatherIcons(61621);
+  static const IconData wi_forecast_io_wind = FlutterIconData.weatherIcons(61520);
+  static const IconData wi_forecast_io_fog = FlutterIconData.weatherIcons(61460);
+  static const IconData wi_forecast_io_cloudy = FlutterIconData.weatherIcons(61459);
+  static const IconData wi_forecast_io_partly_cloudy_day = FlutterIconData.weatherIcons(61442);
+  static const IconData wi_forecast_io_partly_cloudy_night = FlutterIconData.weatherIcons(61489);
+  static const IconData wi_forecast_io_hail = FlutterIconData.weatherIcons(61461);
+  static const IconData wi_forecast_io_thunderstorm = FlutterIconData.weatherIcons(61470);
+  static const IconData wi_forecast_io_tornado = FlutterIconData.weatherIcons(61526);
   static const IconData wi_wmo4680_0 = FlutterIconData.weatherIcons(61525);
   static const IconData wi_wmo4680_00 = FlutterIconData.weatherIcons(61525);
   static const IconData wi_wmo4680_1 = FlutterIconData.weatherIcons(61459);
@@ -706,22 +586,18 @@ class WeatherIcons {
   static const IconData wi_owm_night_905 = FlutterIconData.weatherIcons(61473);
   static const IconData wi_owm_night_906 = FlutterIconData.weatherIcons(61476);
   static const IconData wi_owm_night_957 = FlutterIconData.weatherIcons(61520);
-  static const IconData wi_wu_chanceflurries =
-      FlutterIconData.weatherIcons(61540);
+  static const IconData wi_wu_chanceflurries = FlutterIconData.weatherIcons(61540);
   static const IconData wi_wu_chancerain = FlutterIconData.weatherIcons(61465);
   static const IconData wi_wu_chancesleat = FlutterIconData.weatherIcons(61621);
   static const IconData wi_wu_chancesnow = FlutterIconData.weatherIcons(61467);
-  static const IconData wi_wu_chancetstorms =
-      FlutterIconData.weatherIcons(61470);
+  static const IconData wi_wu_chancetstorms = FlutterIconData.weatherIcons(61470);
   static const IconData wi_wu_clear = FlutterIconData.weatherIcons(61453);
   static const IconData wi_wu_cloudy = FlutterIconData.weatherIcons(61442);
   static const IconData wi_wu_flurries = FlutterIconData.weatherIcons(61540);
   static const IconData wi_wu_hazy = FlutterIconData.weatherIcons(61622);
-  static const IconData wi_wu_mostlycloudy =
-      FlutterIconData.weatherIcons(61442);
+  static const IconData wi_wu_mostlycloudy = FlutterIconData.weatherIcons(61442);
   static const IconData wi_wu_mostlysunny = FlutterIconData.weatherIcons(61453);
-  static const IconData wi_wu_partlycloudy =
-      FlutterIconData.weatherIcons(61442);
+  static const IconData wi_wu_partlycloudy = FlutterIconData.weatherIcons(61442);
   static const IconData wi_wu_partlysunny = FlutterIconData.weatherIcons(61453);
   static const IconData wi_wu_rain = FlutterIconData.weatherIcons(61466);
   static const IconData wi_wu_sleat = FlutterIconData.weatherIcons(61621);

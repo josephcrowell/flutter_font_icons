@@ -1,3 +1,5 @@
+// cSpell:disable
+
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
@@ -10,14 +12,10 @@ class FontAwesome5 {
   static const IconData address_book = FlutterIconData.fontAwesome5(62137);
   static const IconData address_card = FlutterIconData.fontAwesome5(62139);
   static const IconData angry = FlutterIconData.fontAwesome5(62806);
-  static const IconData arrow_alt_circle_down =
-      FlutterIconData.fontAwesome5(62296);
-  static const IconData arrow_alt_circle_left =
-      FlutterIconData.fontAwesome5(62297);
-  static const IconData arrow_alt_circle_right =
-      FlutterIconData.fontAwesome5(62298);
-  static const IconData arrow_alt_circle_up =
-      FlutterIconData.fontAwesome5(62299);
+  static const IconData arrow_alt_circle_down = FlutterIconData.fontAwesome5(62296);
+  static const IconData arrow_alt_circle_left = FlutterIconData.fontAwesome5(62297);
+  static const IconData arrow_alt_circle_right = FlutterIconData.fontAwesome5(62298);
+  static const IconData arrow_alt_circle_up = FlutterIconData.fontAwesome5(62299);
   static const IconData bell = FlutterIconData.fontAwesome5(61683);
   static const IconData bell_slash = FlutterIconData.fontAwesome5(61942);
   static const IconData bookmark = FlutterIconData.fontAwesome5(61486);
@@ -30,8 +28,7 @@ class FontAwesome5 {
   static const IconData calendar_times = FlutterIconData.fontAwesome5(62067);
   static const IconData caret_square_down = FlutterIconData.fontAwesome5(61776);
   static const IconData caret_square_left = FlutterIconData.fontAwesome5(61841);
-  static const IconData caret_square_right =
-      FlutterIconData.fontAwesome5(61778);
+  static const IconData caret_square_right = FlutterIconData.fontAwesome5(61778);
   static const IconData caret_square_up = FlutterIconData.fontAwesome5(61777);
   static const IconData chart_bar = FlutterIconData.fontAwesome5(61568);
   static const IconData check_circle = FlutterIconData.fontAwesome5(61528);
@@ -71,8 +68,7 @@ class FontAwesome5 {
   static const IconData flushed = FlutterIconData.fontAwesome5(62841);
   static const IconData folder = FlutterIconData.fontAwesome5(61563);
   static const IconData folder_open = FlutterIconData.fontAwesome5(61564);
-  static const IconData font_awesome_logo_full =
-      FlutterIconData.fontAwesome5(62694);
+  static const IconData font_awesome_logo_full = FlutterIconData.fontAwesome5(62694);
   static const IconData frown = FlutterIconData.fontAwesome5(61721);
   static const IconData frown_open = FlutterIconData.fontAwesome5(62842);
   static const IconData futbol = FlutterIconData.fontAwesome5(61923);
@@ -88,8 +84,7 @@ class FontAwesome5 {
   static const IconData grin_stars = FlutterIconData.fontAwesome5(62855);
   static const IconData grin_tears = FlutterIconData.fontAwesome5(62856);
   static const IconData grin_tongue = FlutterIconData.fontAwesome5(62857);
-  static const IconData grin_tongue_squint =
-      FlutterIconData.fontAwesome5(62858);
+  static const IconData grin_tongue_squint = FlutterIconData.fontAwesome5(62858);
   static const IconData grin_tongue_wink = FlutterIconData.fontAwesome5(62859);
   static const IconData grin_wink = FlutterIconData.fontAwesome5(62860);
   static const IconData hand_lizard = FlutterIconData.fontAwesome5(62040);

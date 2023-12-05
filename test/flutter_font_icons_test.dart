@@ -1,40 +1,48 @@
+// cSpell:disable
+
 import 'dart:async';
 import 'dart:io';
 import 'a.dart';
 
-String toCamelName(String name) => name
-    .split('_')
-    .map((e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}')
-    .toList()
-    .join();
+String toCamelName(String name) =>
+    name.split('_').map((String e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}').toList().join();
 
 String toName(String name) {
-  String _name = toCamelName(name);
-  return '${_name.substring(0, 1).toLowerCase()}${_name.substring(1)}';
+  String name0 = toCamelName(name);
+  return '${name0.substring(0, 1).toLowerCase()}${name0.substring(1)}';
 }
 
 void main() {
-  Map<String, dynamic> _gly = _fontAwesome5_meta;
-  List<String> keys = _gly.keys.toList();
+  Map<String, dynamic> gly = _fontAwesome5_meta;
+  List<String> keys = gly.keys.toList();
   for (int i = 0; i < keys.length; i++) {
     File file = File('././lib/font_awesome_5_${keys[i]}.dart');
-    if (!file.existsSync()) file.createSync();
-    String allStr = """
-    import 'package:flutter/material.dart';
-    import 'package:flutter_font_icons/src/flutter_icon_data.dart';""";
-    allStr += "class ${toCamelName("font_awesome_5_${keys[i]}")} { \n";
-    List<String> obj = _gly[keys[i]];
-    for (int j = 0; j < obj.length; j++) {
-      allStr +=
-          'static const IconData ${obj[j].replaceAll('-', '_')} = const FlutterIconData.${toName('font_awesome_5_${keys[i]}')}(${_fontAwesome5[obj[j]]});\n';
+
+    if (!file.existsSync()) {
+      file.createSync();
     }
-    allStr += '}';
-    file.writeAsStringSync(allStr);
+
+    StringBuffer allStr = StringBuffer("""
+    import 'package:flutter/material.dart';
+    import 'package:flutter_font_icons/src/flutter_icon_data.dart';
+    class ${toCamelName("font_awesome_5_${keys[i]}")} { \n""");
+
+    List<String> obj = gly[keys[i]];
+
+    for (int j = 0; j < obj.length; j++) {
+      allStr.write(
+        'static const IconData ${obj[j].replaceAll('-', '_')} = const FlutterIconData.${toName('font_awesome_5_${keys[i]}')}(${_fontAwesome5[obj[j]]});\n',
+      );
+    }
+
+    allStr.write('}');
+
+    file.writeAsStringSync(allStr.toString());
   }
 }
 
-const Map<String, List<String>> _fontAwesome5_meta = {
-  'brands': [
+const Map<String, List<String>> _fontAwesome5_meta = <String, List<String>>{
+  'brands': <String>[
     '500px',
     'accessible-icon',
     'accusoft',
@@ -449,10 +457,9 @@ const Map<String, List<String>> _fontAwesome5_meta = {
     'yoast',
     'youtube-square',
     'youtube',
-    'zhihu'
+    'zhihu',
   ],
-  // ignore: always_specify_types
-  'regular': [
+  'regular': <String>[
     'address-book',
     'address-card',
     'angry',
@@ -604,10 +611,9 @@ const Map<String, List<String>> _fontAwesome5_meta = {
     'window-close',
     'window-maximize',
     'window-minimize',
-    'window-restore'
+    'window-restore',
   ],
-  // ignore: always_specify_types
-  'solid': [
+  'solid': <String>[
     'ad',
     'address-book',
     'address-card',
@@ -1543,8 +1549,8 @@ const Map<String, List<String>> _fontAwesome5_meta = {
     'wrench',
     'x-ray',
     'yen-sign',
-    'yin-yang'
-  ]
+    'yin-yang',
+  ],
 };
 
 const Map<String, int> _fontAwesome5 = <String, int>{
@@ -2897,5 +2903,5 @@ const Map<String, int> _fontAwesome5 = <String, int>{
   'yoast': 62129,
   'youtube': 61799,
   'youtube-square': 62513,
-  'zhihu': 63039
+  'zhihu': 63039,
 };

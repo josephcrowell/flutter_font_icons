@@ -1,3 +1,5 @@
+// cSpell:disable
+
 import 'package:flutter/material.dart';
 import 'package:flutter_font_icons/src/flutter_icon_data.dart';
 
