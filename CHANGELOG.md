@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.6
+
+* Dependency upgrade and code modernization
+
 ## 2.2.5
 
 * Dependency upgrade

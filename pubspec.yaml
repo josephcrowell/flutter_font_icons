@@ -1,6 +1,6 @@
 name: flutter_font_icons
-description: Vector Font Icons for Flutter，including all fonts from react-native-vector-icons and WeatherIcons.
-version: 2.2.5
+description: Vector Font Icons for Flutter, including all fonts from react-native-vector-icons and WeatherIcons.
+version: 2.2.6
 homepage: https://github.com/josephcrowell/flutter_font_icons
 
 environment:
