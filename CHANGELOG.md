@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.7
+
+* Update license
+
 ## 2.2.6
 
 * Dependency upgrade and code modernization
